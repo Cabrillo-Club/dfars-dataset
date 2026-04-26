@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "252-204-7008",
+    "clause": "252.204-7008",
+    "title": "Compliance with Safeguarding Covered Defense Information Controls",
+    "category": "cybersecurity",
+    "flowdown": false,
+    "searchTier": "high"
+  },
+  {
+    "slug": "252-204-7009",
+    "clause": "252.204-7009",
+    "title": "Limitations on the Use or Disclosure of Third-Party Contractor Reported Cyber Incident Information",
+    "category": "cybersecurity",
+    "flowdown": false,
+    "searchTier": "medium"
+  },
+  {
+    "slug": "252-204-7012",
+    "clause": "252.204-7012",
+    "title": "Safeguarding Covered Defense Information and Cyber Incident Reporting",
+    "category": "cybersecurity",
+    "flowdown": true,
+    "searchTier": "high"
+  },
+  {
+    "slug": "252-204-7019",
+    "clause": "252.204-7019",
+    "title": "Notice of NIST SP 800-171 DoD Assessment Requirements",
+    "category": "cybersecurity",
+    "flowdown": true,
+    "searchTier": "high"
+  },
+  {
+    "slug": "252-204-7020",
+    "clause": "252.204-7020",
+    "title": "NIST SP 800-171 DoD Assessment Requirements",
+    "category": "cybersecurity",
+    "flowdown": true,
+    "searchTier": "high"
+  },
+  {
+    "slug": "252-204-7021",
+    "clause": "252.204-7021",
+    "title": "Cybersecurity Maturity Model Certification Requirements",
+    "category": "cybersecurity",
+    "flowdown": true,
+    "searchTier": "high"
+  },
+  {
+    "slug": "252-239-7010",
+    "clause": "252.239-7010",
+    "title": "Cloud Computing Services",
+    "category": "cybersecurity",
+    "flowdown": true,
+    "searchTier": "medium"
+  },
+  {
+    "slug": "252-227-7013",
+    "clause": "252.227-7013",
+    "title": "Rights in Technical Data—Noncommercial Items",
+    "category": "intellectual-property",
+    "flowdown": true,
+    "searchTier": "high"
+  },
+  {
+    "slug": "252-227-7014",
+    "clause": "252.227-7014",
+    "title": "Rights in Other Than Commercial Computer Software and Other Than Commercial Computer Software Documentation",
+    "category": "intellectual-property",
+    "flowdown": true,
+    "searchTier": "high"
+  },
+  {
+    "slug": "252-227-7015",
+    "clause": "252.227-7015",
+    "title": "Technical Data—Commercial Items",
+    "category": "intellectual-property",
+    "flowdown": true,
+    "searchTier": "medium"
+  },
+  {
+    "slug": "252-227-7017",
+    "clause": "252.227-7017",
+    "title": "Identification and Assertion of Use, Release, or Disclosure Restrictions",
+    "category": "intellectual-property",
+    "flowdown": true,
+    "searchTier": "medium"
+  },
+  {
+    "slug": "252-227-7018",
+    "clause": "252.227-7018",
+    "title": "Rights in Other Than Commercial Technical Data and Computer Software—Small Business Innovation Research Program",
+    "category": "intellectual-property",
+    "flowdown": false,
+    "searchTier": "medium"
+  },
+  {
+    "slug": "252-227-7019",
+    "clause": "252.227-7019",
+    "title": "Validation of Asserted Restrictions—Computer Software",
+    "category": "intellectual-property",
+    "flowdown": false,
+    "searchTier": "low"
+  },
+  {
+    "slug": "252-239-7018",
+    "clause": "252.239-7018",
+    "title": "Supply Chain Risk",
+    "category": "supply-chain",
+    "flowdown": true,
+    "searchTier": "medium"
+  },
+  {
+    "slug": "252-225-7001",
+    "clause": "252.225-7001",
+    "title": "Buy American and Balance of Payments Program",
+    "category": "supply-chain",
+    "flowdown": true,
+    "searchTier": "medium"
+  },
+  {
+    "slug": "252-225-7002",
+    "clause": "252.225-7002",
+    "title": "Qualifying Country Sources as Subcontractors",
+    "category": "supply-chain",
+    "flowdown": true,
+    "searchTier": "low"
+  },
+  {
+    "slug": "252-204-7018",
+    "clause": "252.204-7018",
+    "title": "Prohibition on the Acquisition of Covered Defense Telecommunications Equipment or Services",
+    "category": "supply-chain",
+    "flowdown": true,
+    "searchTier": "medium"
+  },
+  {
+    "slug": "252-211-7003",
+    "clause": "252.211-7003",
+    "title": "Item Unique Identification and Valuation",
+    "category": "supply-chain",
+    "flowdown": true,
+    "searchTier": "low"
+  },
+  {
+    "slug": "252-219-7003",
+    "clause": "252.219-7003",
+    "title": "Small Business Subcontracting Plan (DoD Contracts)",
+    "category": "small-business",
+    "flowdown": false,
+    "searchTier": "medium"
+  },
+  {
+    "slug": "252-219-7004",
+    "clause": "252.219-7004",
+    "title": "Small Business Subcontracting Plan (Test Program)",
+    "category": "small-business",
+    "flowdown": false,
+    "searchTier": "low"
+  },
+  {
+    "slug": "252-219-7011",
+    "clause": "252.219-7011",
+    "title": "Notification to Delay Performance",
+    "category": "small-business",
+    "flowdown": false,
+    "searchTier": "low"
+  },
+  {
+    "slug": "252-215-7002",
+    "clause": "252.215-7002",
+    "title": "Cost Estimating System Requirements",
+    "category": "general",
+    "flowdown": true,
+    "searchTier": "medium"
+  },
+  {
+    "slug": "252-232-7003",
+    "clause": "252.232-7003",
+    "title": "Electronic Submission of Payment Requests and Receiving Reports",
+    "category": "general",
+    "flowdown": true,
+    "searchTier": "low"
+  },
+  {
+    "slug": "252-232-7006",
+    "clause": "252.232-7006",
+    "title": "Wide Area WorkFlow Payment Instructions",
+    "category": "general",
+    "flowdown": true,
+    "searchTier": "low"
+  },
+  {
+    "slug": "252-237-7010",
+    "clause": "252.237-7010",
+    "title": "Prohibition on Interrogation of Detainees by Contractor Personnel",
+    "category": "general",
+    "flowdown": true,
+    "searchTier": "low"
+  },
+  {
+    "slug": "252-242-7005",
+    "clause": "252.242-7005",
+    "title": "Contractor Business Systems",
+    "category": "general",
+    "flowdown": true,
+    "searchTier": "high"
+  },
+  {
+    "slug": "252-246-7007",
+    "clause": "252.246-7007",
+    "title": "Contractor Counterfeit Electronic Part Detection and Avoidance System",
+    "category": "supply-chain",
+    "flowdown": true,
+    "searchTier": "medium"
+  },
+  {
+    "slug": "252-246-7008",
+    "clause": "252.246-7008",
+    "title": "Sources of Electronic Parts",
+    "category": "supply-chain",
+    "flowdown": true,
+    "searchTier": "low"
+  },
+  {
+    "slug": "252-247-7023",
+    "clause": "252.247-7023",
+    "title": "Transportation of Supplies by Sea",
+    "category": "general",
+    "flowdown": true,
+    "searchTier": "low"
+  },
+  {
+    "slug": "252-204-7000",
+    "clause": "252.204-7000",
+    "title": "Disclosure of Information",
+    "category": "general",
+    "flowdown": true,
+    "searchTier": "medium"
+  }
+]

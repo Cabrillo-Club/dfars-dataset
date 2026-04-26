@@ -1,0 +1,45 @@
+{
+  "name": "@cabrillo-club/dfars-dataset",
+  "version": "1.0.0",
+  "description": "Open dataset of Defense Federal Acquisition Regulation Supplement (DFARS) clauses with NIST 800-171 cross-references.",
+  "license": "CC-BY-4.0",
+  "type": "module",
+  "main": "data/dfars-clauses.min.json",
+  "files": [
+    "data/",
+    "schema/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "check-consistency": "node scripts/check-consistency.mjs",
+    "lint": "node scripts/lint.mjs",
+    "test": "npm run validate && npm run check-consistency && npm run lint"
+  },
+  "devDependencies": {
+    "ajv": "^8.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cabrillo-club/dfars-dataset.git"
+  },
+  "homepage": "https://github.com/cabrillo-club/dfars-dataset#readme",
+  "bugs": "https://github.com/cabrillo-club/dfars-dataset/issues",
+  "keywords": [
+    "dfars",
+    "far",
+    "government",
+    "contracting",
+    "compliance",
+    "cmmc",
+    "nist-800-171",
+    "cui",
+    "fedramp",
+    "open-data",
+    "dataset",
+    "govcon",
+    "cybersecurity"
+  ],
+  "author": "Cabrillo Club LLC <support@cabrilloclub.com> (https://cabrilloclub.com)"
+}

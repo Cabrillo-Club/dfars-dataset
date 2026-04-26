@@ -1,0 +1,53 @@
+{
+  "clause": "252.204-7000",
+  "slug": "252-204-7000",
+  "title": "Disclosure of Information",
+  "category": "general",
+  "description": "This clause prohibits contractors from publicly disclosing information related to a DoD contract without prior written authorization from the contracting officer. It covers press releases, marketing materials, presentations, and publications.",
+  "applicability": "DoD contracts involving sensitive information where uncontrolled disclosure could be detrimental.",
+  "keyRequirements": [
+    "Obtain written authorization before public disclosure",
+    "Ensure all employees understand non-disclosure requirements",
+    "Review all publications and marketing for restricted content",
+    "Maintain records of disclosure authorizations"
+  ],
+  "flowdown": true,
+  "relatedNist": [
+    "mp-3-8-4",
+    "mp-3-8-5"
+  ],
+  "relatedHubs": [
+    "cmmc",
+    "operations"
+  ],
+  "searchTier": "medium",
+  "faq": [
+    {
+      "question": "What is DFARS 252.204-7000?",
+      "answer": "DFARS 252.204-7000 (Disclosure of Information) This clause prohibits contractors from publicly disclosing information related to a DoD contract without prior written authorization from the contracting officer. It covers press releases, marketing m"
+    },
+    {
+      "question": "Does DFARS 252.204-7000 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.204-7000 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.204-7000 apply?",
+      "answer": "DoD contracts involving sensitive information where uncontrolled disclosure could be detrimental."
+    }
+  ],
+  "practicalExample": "Meridian Defense Technologies, a mid-size cybersecurity contractor, secured a $12M DISA contract for network security assessments. Their marketing team prepared a press release highlighting the win, including contract value and technical approach details. The contracting officer discovered the release during routine monitoring and issued a cure notice, threatening contract termination. The unauthorized disclosure violated 252.204-7000 because it revealed specific DoD network vulnerabilities and assessment methodologies without prior written authorization. Meridian faced potential contract termination, a $360K cure action response cost, and 45-day remediation timeline. They implemented immediate controls: mandatory legal review for all communications, employee training, and approval workflows. The lesson: even seemingly harmless marketing content can trigger violations when technical details are disclosed without contracting officer approval.",
+  "whyItMatters": "This clause protects operational security and contractor proprietary information from inadvertent public disclosure. It affects both primes and subcontractors on sensitive DoD contracts, particularly those involving classified work, critical infrastructure, or emerging technologies. Worst-case violations can result in contract termination for default, False Claims Act liability up to $23,607 per violation, and suspension/debarment proceedings. The clause directly supports CMMC 2.0's Media Protection (MP) domain by controlling information flow. The 2026 regulatory trend toward Zero Trust architecture makes this more critical—DoD's emphasis on supply chain transparency means contractors must balance public disclosure requirements with operational security, creating heightened scrutiny of all external communications.",
+  "complianceCost": "Initial compliance costs range $15K-$75K depending on company size and existing controls. Small contractors typically spend $15K-$25K for policy development and training. Mid-size firms invest $35K-$50K for comprehensive workflows and systems integration. Large primes may spend $60K-$75K for enterprise-wide controls and automated monitoring. Annual ongoing costs average $8K-$30K for training updates, process maintenance, and monitoring tools. Non-compliance remediation costs $50K-$200K including legal response, process redesign, and potential contract cure actions. Implementation typically requires 60-90 days for policy development, training rollout, and workflow integration. Cost drivers include existing marketing approval processes, employee count requiring training, and complexity of public-facing communications.",
+  "crossReferences": "This clause works in conjunction with 252.204-7012 (Safeguarding Covered Defense Information) by protecting operational details that could compromise safeguarding efforts. It directly supports 252.225-7048 (Export Control) by preventing inadvertent technical data disclosure that could trigger ITAR violations. Under CMMC 2.0, it aligns with Level 2 Media Protection (MP.L2-3.8.3) and System and Information Integrity (SI.L2-3.14.1) requirements for controlling information flow and monitoring system output. The clause also interfaces with 252.204-7019 (SPRS reporting) because unauthorized technical disclosures can reveal cybersecurity posture details that should remain protected. Compliance creates the foundational information control framework necessary for higher-level security requirements across the acquisition lifecycle.",
+  "procurementGuidance": "This clause typically appears in RFPs for contracts involving sensitive technologies, classified work, or critical infrastructure assessments. Source selection evaluation focuses on your organization's information disclosure policies and track record of protecting government information. Prepare your proposal with: documented disclosure approval procedures, employee training programs, and examples of successful information protection on previous contracts. Address compliance in your management approach by detailing review workflows, approval authorities, and monitoring procedures. Include your legal review process timeline to demonstrate you can support required approvals without delaying legitimate marketing activities. Consider proposing enhanced disclosure controls as a competitive differentiator, particularly for contracts requiring rapid response capabilities where disclosure authorization timing becomes critical.",
+  "complianceChecklist": [
+    "Contracts personnel must identify all contracts containing 252.204-7000 and maintain a disclosure authorization tracking log with contracting officer contact information.",
+    "Legal counsel must develop written disclosure approval procedures specifying review criteria, approval authorities, and documentation requirements for all public-facing materials.",
+    "Marketing and communications teams must implement mandatory pre-publication review workflows requiring legal and contracts approval before any DoD-related content release.",
+    "ISSO must establish information classification guidelines helping employees identify potentially sensitive technical details requiring disclosure authorization.",
+    "HR must deliver mandatory annual training to all personnel on disclosure requirements, including specific examples of prohibited content and approval procedures.",
+    "Contracts administrators must obtain written contracting officer authorization before any press releases, conference presentations, or marketing materials mentioning DoD work.",
+    "Legal teams must maintain disclosure authorization files for audit purposes, including approved materials, rejection notices, and correspondence with contracting officers.",
+    "Compliance officers must conduct quarterly reviews of public communications to identify unauthorized disclosures and implement corrective actions as needed."
+  ]
+}

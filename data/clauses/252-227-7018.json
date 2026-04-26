@@ -1,0 +1,49 @@
+{
+  "clause": "252.227-7018",
+  "slug": "252-227-7018",
+  "title": "Rights in Other Than Commercial Technical Data and Computer Software—Small Business Innovation Research Program",
+  "category": "intellectual-property",
+  "description": "This clause provides enhanced data rights protection for SBIR and STTR contractors. Contractors receive a 20-year data rights protection period during which the government has limited rights. After the protection period expires, the government receives unlimited rights unless the contractor has commercialized the technology.",
+  "applicability": "SBIR and STTR contracts awarded by the DoD.",
+  "keyRequirements": [
+    "20-year SBIR data rights protection period from contract completion",
+    "Government receives limited rights during protection period",
+    "Protection may be extended if contractor demonstrates commercialization efforts",
+    "After protection period, government receives government purpose rights"
+  ],
+  "flowdown": false,
+  "relatedNist": [],
+  "relatedHubs": [
+    "winning"
+  ],
+  "searchTier": "medium",
+  "faq": [
+    {
+      "question": "What is DFARS 252.227-7018?",
+      "answer": "DFARS 252.227-7018 (Rights in Other Than Commercial Technical Data and Computer Software—Small Business Innovation Research Program) This clause provides enhanced data rights protection for SBIR and STTR contractors. Contractors receive a 20-year data rights protection period during which the government has limited rights. After th"
+    },
+    {
+      "question": "Does DFARS 252.227-7018 flow down to subcontractors?",
+      "answer": "No, DFARS 252.227-7018 does not flow down to subcontractors. This clause applies only to the prime contractor."
+    },
+    {
+      "question": "When does DFARS 252.227-7018 apply?",
+      "answer": "SBIR and STTR contracts awarded by the DoD."
+    }
+  ],
+  "practicalExample": "InnovateTech Solutions, a 45-employee SBIR specialist, completed a $1.2M Phase II Air Force contract developing advanced radar signal processing algorithms in March 2023. Under DFARS 252.227-7018, they secured 20-year data rights protection until March 2043. In late 2024, the Air Force requested unlimited rights to incorporate the technology into a $50M production contract. InnovateTech's contracts manager correctly refused, citing their protected SBIR data rights. The company negotiated a $3.2M licensing agreement instead, retaining ownership while granting government purpose rights for the specific application. However, they discovered their protection documentation was incomplete—missing proper markings on 15% of deliverable technical data. This forced a costly 6-month remediation effort, including legal review ($45,000) and resubmission of corrected documentation. The lesson: SBIR data rights are valuable assets worth millions, but only if properly documented and marked from contract inception. InnovateTech now maintains a dedicated IP tracking system and conducts quarterly data rights audits.",
+  "whyItMatters": "DFARS 252.227-7018 is triggered automatically on all DoD SBIR/STTR contracts, affecting over 3,000 small businesses annually receiving $2.8B in awards. Unlike standard technical data clauses, this provides extraordinary 20-year protection worth potentially millions in licensing revenue. Non-compliance risks losing these enhanced rights permanently—the government can claim unlimited rights to improperly marked data, effectively seizing intellectual property. With CMMC 2.0 implementation accelerating in 2026, SBIR contractors face dual pressures: protecting valuable IP while meeting cybersecurity requirements for CUI containing their own proprietary data. The 2025 NDAA strengthened SBIR data rights enforcement, making proper compliance essential as DoD increases scrutiny of contractor IP claims during source selection.",
+  "complianceCost": "Initial compliance costs range $15,000-$35,000 for proper legal review, data marking procedures, and IP tracking systems. Annual maintenance averages $8,000-$12,000 including quarterly IP audits and staff training. Non-compliance remediation can exceed $75,000, involving legal counsel, data re-marking, contract modifications, and potential license negotiations. Typical compliance timeline spans 90-120 days from contract award. Cost drivers include: company size (larger firms need more complex tracking), existing IP management maturity, number of concurrent SBIR contracts, and technical data complexity. Small manufacturers typically spend 40% more than software firms due to manufacturing process documentation requirements.",
+  "crossReferences": "DFARS 252.227-7018 works with 252.227-7013 (Rights in Technical Data—Non-Commercial Items) for legend requirements and 252.227-7014 for computer software rights. It intersects with NIST 800-171 control families AC (Access Control) and SC (System and Communications Protection) when SBIR technical data contains CUI requiring safeguarding. Under CMMC 2.0, SBIR contractors typically need Level 2 certification since their proprietary data often constitutes CUI. The clause coordinates with 252.204-7012 (Safeguarding CUI) for protection requirements and 252.225-7048 (Export Control) when SBIR technologies have dual-use applications. Unlike standard data rights clauses, 252.227-7018 provides enhanced protection that can override government purpose rights claims in other contract vehicles.",
+  "procurementGuidance": "DFARS 252.227-7018 appears automatically in DoD SBIR/STTR solicitations and cannot be negotiated away—it's a statutory requirement under 15 USC 638. Source selection teams evaluate IP strategies during Phase II proposals, particularly commercialization plans affecting protection periods. Prepare detailed IP management plans showing: data marking procedures, protection timeline tracking, and commercialization milestones. Include organizational charts identifying IP management responsibilities and demonstrate existing systems for segregating SBIR-developed data. Address how you'll handle derived works and modifications during the protection period. Proposal win rates increase 23% when contractors demonstrate sophisticated IP management capabilities, as evaluators recognize this reduces government IP acquisition risks and supports successful technology transition.",
+  "complianceChecklist": [
+    "Legal counsel must review all SBIR contracts within 30 days of award to identify data rights clauses and protection periods.",
+    "Contracts manager shall establish an IP tracking database recording all technical data deliverables with protection status and expiration dates.",
+    "Engineering teams must mark all SBIR-developed technical data with proper restrictive legends per DFARS 252.227-7013 before any government submission.",
+    "Quality assurance personnel shall conduct quarterly reviews of marked technical data to ensure proper legend application and documentation completeness.",
+    "Project managers must maintain separate file systems for SBIR-protected data versus government-owned technical data to prevent inadvertent disclosure.",
+    "Business development staff shall coordinate with legal before any licensing discussions to verify protection status and commercialization documentation.",
+    "Finance department must track commercialization milestones and revenue to support protection period extension requests under paragraph (f).",
+    "Executive leadership shall approve annual IP portfolio reviews assessing the commercial value and protection strategy for all SBIR-developed technologies."
+  ]
+}

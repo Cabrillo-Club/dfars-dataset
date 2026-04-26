@@ -1,0 +1,51 @@
+{
+  "clause": "252.227-7013",
+  "slug": "252-227-7013",
+  "title": "Rights in Technical Data—Noncommercial Items",
+  "category": "intellectual-property",
+  "description": "This clause governs the government's rights in technical data for noncommercial items. The government receives unlimited rights in data developed exclusively at government expense, limited rights in data developed exclusively at private expense, and government purpose rights in data developed with mixed funding. Proper data rights marking is essential to protect contractor IP.",
+  "applicability": "All DoD contracts for noncommercial items that involve the creation or delivery of technical data.",
+  "keyRequirements": [
+    "Mark all technical data with the appropriate rights legend",
+    "Unlimited rights for government-funded data",
+    "Limited rights for contractor-funded data",
+    "Government Purpose Rights for mixed-funded data (5-year restriction)",
+    "Challenge procedures for unmarked or improperly marked data"
+  ],
+  "flowdown": true,
+  "relatedNist": [],
+  "relatedHubs": [
+    "operations",
+    "proposal"
+  ],
+  "searchTier": "high",
+  "faq": [
+    {
+      "question": "What is DFARS 252.227-7013?",
+      "answer": "DFARS 252.227-7013 (Rights in Technical Data—Noncommercial Items) This clause governs the government's rights in technical data for noncommercial items. The government receives unlimited rights in data developed exclusively at government expense, limited rights in d"
+    },
+    {
+      "question": "Does DFARS 252.227-7013 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.227-7013 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.227-7013 apply?",
+      "answer": "All DoD contracts for noncommercial items that involve the creation or delivery of technical data."
+    }
+  ],
+  "practicalExample": "A mid-size defense electronics manufacturer, Quantum Systems Inc., received a $12M Navy contract to develop a new radar processing unit. During the design phase, they developed proprietary algorithms using $800K of internal R&D funds, while the remaining technical specifications were government-funded. When delivering the technical data package, Quantum initially marked all documentation with 'Limited Rights' legends, claiming full contractor funding. The Navy's contracting officer challenged the markings during the 90-day review period, demanding proof of funding sources. After a costly 6-month documentation review involving $150K in legal fees, Quantum had to re-mark 70% of the technical data with 'Unlimited Rights' legends, effectively giving the government perpetual rights to commercialize their core algorithms. The lesson learned: maintain detailed contemporaneous records of all funding sources during development, and engage intellectual property counsel before marking any technical data deliverables.",
+  "whyItMatters": "This clause fundamentally determines who owns the intellectual property created under DoD contracts, directly impacting a contractor's competitive advantage and future revenue streams. It affects both primes and subcontractors delivering any technical data under noncommercial item contracts. Improper marking can trigger False Claims Act liability, with penalties up to $23,607 per violation plus treble damages. The government can also terminate contracts for cause if contractors refuse to provide properly marked technical data. With CMMC 2.0 implementation accelerating in 2026, contractors face increased scrutiny of their data handling practices, making proper technical data rights management critical for maintaining security clearances and contract eligibility. The growing emphasis on domestic manufacturing and technology transfer restrictions under ITAR and EAR makes understanding these rights essential for long-term business sustainability.",
+  "complianceCost": "Initial compliance setup ranges from $25K-$150K depending on company size and existing IP management systems. Mid-size contractors typically spend $75K implementing proper marking procedures, legal review processes, and staff training. Annual ongoing costs average $40K-$80K for maintaining compliance, including IP attorney reviews and marking validation procedures. Non-compliance remediation costs can exceed $500K when including legal fees, re-work, and potential government claims. Implementation timeline spans 4-6 months for most contractors. Cost drivers include: existing contract portfolio size, complexity of technical data deliverables, current IP management maturity, and whether the company has dedicated contracts or legal staff. Companies with robust existing IP processes can achieve compliance for 60% less than those starting from scratch.",
+  "crossReferences": "This clause interconnects with DFARS 252.227-7014 (Rights in Noncommercial Computer Software) for integrated software-hardware deliverables, requiring coordinated marking strategies. It flows down through 252.244-7000 (Subcontracts for Commercial Items) to ensure consistent rights allocation throughout the supply chain. The technical data security requirements align with NIST 800-171 control families SC (System and Communications Protection) and MP (Media Protection), particularly SC-28 (Protection of Information at Rest) when storing marked technical data. Under CMMC 2.0, this clause supports Level 2 requirements by establishing data categorization protocols essential for implementing appropriate security controls. Proper implementation satisfies foundational requirements for 252.204-7012 (Safeguarding Covered Defense Information) by ensuring technical data is properly identified and categorized before applying security measures.",
+  "procurementGuidance": "This clause appears automatically in all DoD solicitations for noncommercial items requiring technical data deliverables, typically in Section I (Contract Clauses) without modification rights. During source selection, evaluate technical data rights implications early in your bid decision process, as unlimited rights requirements can significantly impact pricing strategy and intellectual property protection. Prepare a Technical Data Management Plan identifying all deliverable technical data, funding sources, and proposed markings as part of your technical proposal. Address potential rights conflicts proactively by proposing alternative technical approaches that minimize contractor-funded intellectual property exposure. Include detailed funding source documentation and marking matrices in your proposal to demonstrate compliance understanding and reduce post-award disputes. For competitive advantages, consider offering broader rights than required to enhance your technical evaluation scores while protecting core proprietary technologies through careful technical data scope definition.",
+  "complianceChecklist": [
+    "Contracts team must insert appropriate technical data rights clauses into all subcontracts exceeding $25K that involve technical data deliverables.",
+    "Legal counsel shall establish written procedures for determining funding sources and assigning appropriate rights categories for all technical data.",
+    "Program managers must maintain contemporaneous funding records linking each technical data element to its government or contractor funding source.",
+    "IP attorney shall review and approve all technical data markings before delivery to ensure compliance with DFARS 252.227-7013 requirements.",
+    "Contracts administrator must validate that all delivered technical data contains proper rights legends as specified in paragraph (f) of the clause.",
+    "Legal team shall implement challenge response procedures to address government disputes over technical data markings within required timeframes.",
+    "Quality assurance personnel must audit technical data deliverables quarterly to verify proper marking compliance and identify correction needs.",
+    "Training coordinator shall provide annual DFARS technical data rights training to all program managers and contracts personnel handling noncommercial item contracts."
+  ]
+}

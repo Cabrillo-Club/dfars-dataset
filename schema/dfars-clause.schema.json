@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/cabrillo-club/dfars-dataset/schema/dfars-clause.schema.json",
+  "title": "DFARS Clause Record",
+  "description": "Structured representation of a single DFARS clause with contractor-relevant metadata.",
+  "type": "object",
+  "required": [
+    "clause",
+    "slug",
+    "title",
+    "category",
+    "description",
+    "applicability",
+    "keyRequirements",
+    "flowdown",
+    "relatedNist",
+    "relatedHubs",
+    "searchTier",
+    "faq"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "clause": {
+      "type": "string",
+      "description": "Official DFARS clause number, e.g. '252.204-7012'.",
+      "pattern": "^[0-9]{3}\\.[0-9]{3}-[0-9]{4}$"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-safe slug derived from the clause number, e.g. '252-204-7012'.",
+      "pattern": "^[0-9]{3}-[0-9]{3}-[0-9]{4}$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Official short title of the clause.",
+      "minLength": 5
+    },
+    "category": {
+      "type": "string",
+      "enum": ["cybersecurity", "small-business", "intellectual-property", "supply-chain", "general"],
+      "description": "Domain bucket for the clause."
+    },
+    "description": {
+      "type": "string",
+      "description": "Plain-English summary of the clause's purpose (2-4 sentences).",
+      "minLength": 50
+    },
+    "applicability": {
+      "type": "string",
+      "description": "When this clause is included in solicitations or contracts.",
+      "minLength": 20
+    },
+    "keyRequirements": {
+      "type": "array",
+      "description": "Bullet list of the contractor's primary obligations under this clause.",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 10 }
+    },
+    "flowdown": {
+      "type": "boolean",
+      "description": "Whether the clause must flow down to subcontractors."
+    },
+    "relatedNist": {
+      "type": "array",
+      "description": "NIST 800-171 controls referenced by or relevant to this clause (e.g. 'AC-3.1.1', '3.1.1').",
+      "items": { "type": "string" }
+    },
+    "relatedHubs": {
+      "type": "array",
+      "description": "Cabrillo Club content hubs related to this clause (used for cross-linking).",
+      "items": { "type": "string" }
+    },
+    "searchTier": {
+      "type": "string",
+      "enum": ["high", "medium", "low"],
+      "description": "Search-volume tier — 'high' clauses see significant query volume in our SEO data."
+    },
+    "faq": {
+      "type": "array",
+      "description": "Contractor-grade FAQs answering common confusion points.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["question", "answer"],
+        "additionalProperties": false,
+        "properties": {
+          "question": { "type": "string", "minLength": 10 },
+          "answer": { "type": "string", "minLength": 30 }
+        }
+      }
+    },
+    "practicalExample": {
+      "type": "string",
+      "description": "Optional — a real-world scenario showing how the clause applies."
+    },
+    "whyItMatters": {
+      "type": "string",
+      "description": "Optional — business-impact framing of why contractors should care."
+    },
+    "complianceCost": {
+      "type": "string",
+      "description": "Optional — typical implementation cost band or guidance."
+    },
+    "complianceChecklist": {
+      "type": "array",
+      "description": "Optional — actionable steps to comply with the clause.",
+      "items": { "type": "string" }
+    },
+    "crossReferences": {
+      "type": "string",
+      "description": "Optional — related FAR/DFARS clauses that should be read alongside this one."
+    },
+    "procurementGuidance": {
+      "type": "string",
+      "description": "Optional — RFP-language guidance (typically for contracting officers)."
+    }
+  }
+}

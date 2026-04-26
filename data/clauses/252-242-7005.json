@@ -1,0 +1,51 @@
+{
+  "clause": "252.242-7005",
+  "slug": "252-242-7005",
+  "title": "Contractor Business Systems",
+  "category": "general",
+  "description": "This clause requires contractors to maintain six DCMA-approved business systems: accounting, estimating, EVMS, MMAS, property management, and purchasing. Contractors with deficiencies face payment withholds of up to 5% per deficient system (10% maximum total). This is one of the most impactful DFARS clauses for large defense contractors.",
+  "applicability": "CAS-covered contracts (typically cost-reimbursement, incentive, and T&M contracts over $50 million) where DCMA oversight is required.",
+  "keyRequirements": [
+    "Maintain six approved business systems",
+    "Obtain DCMA approval for each applicable system",
+    "Correct significant deficiencies within specified timeline",
+    "Accept withholds of up to 5% per deficient system (10% max)",
+    "Provide DCMA access to all business system records"
+  ],
+  "flowdown": true,
+  "relatedNist": [],
+  "relatedHubs": [
+    "operations",
+    "proposal"
+  ],
+  "searchTier": "high",
+  "faq": [
+    {
+      "question": "What is DFARS 252.242-7005?",
+      "answer": "DFARS 252.242-7005 (Contractor Business Systems) This clause requires contractors to maintain six DCMA-approved business systems: accounting, estimating, EVMS, MMAS, property management, and purchasing. Contractors with deficiencies face payment wit"
+    },
+    {
+      "question": "Does DFARS 252.242-7005 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.242-7005 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.242-7005 apply?",
+      "answer": "CAS-covered contracts (typically cost-reimbursement, incentive, and T&M contracts over $50 million) where DCMA oversight is required."
+    }
+  ],
+  "practicalExample": "TechDefense Solutions, a mid-size IT contractor with $180M in annual DoD revenue, faced a critical business system crisis in Q3 2024. During a routine DCMA surveillance review of their $75M Army command and control contract, auditors identified significant deficiencies in their accounting system's indirect cost allocation methodology and their purchasing system's subcontractor surveillance procedures. DCMA imposed a 10% payment withhold ($7.5M monthly) across all CAS-covered contracts. The company's cash flow plummeted, forcing them to secure a $25M credit facility at 8.5% interest. TechDefense hired Ernst & Young for $850K to redesign their indirect cost pools and implemented a new purchasing surveillance system for $1.2M. After 14 months and $2.1M in remediation costs, DCMA lifted the withholds. However, the company lost $3.4M in interest and carrying costs during the withhold period. Lesson learned: quarterly self-assessments and proactive DCMA engagement prevented future deficiencies.",
+  "whyItMatters": "DFARS 252.242-7005 represents the DoD's primary mechanism for ensuring contractor business system integrity, directly impacting payment streams for companies with CAS-covered contracts. This clause affects prime contractors and major subcontractors managing cost-reimbursement, incentive, and T&M contracts exceeding $50M. Non-compliance triggers automatic payment withholds that can cascade into contract termination for default, False Claims Act liability if deficiencies mask cost misallocations, and potential suspension/debarment proceedings. The clause intersects with CMMC 2.0 requirements, as purchasing system deficiencies often correlate with cybersecurity supply chain vulnerabilities. With DoD's increased emphasis on business system maturity under the FY26 NDAA, contractors face heightened scrutiny of system integration and data analytics capabilities, making robust business systems essential for maintaining competitive positioning.",
+  "complianceCost": "Initial compliance costs range from $500K-$3M depending on existing system maturity and organizational complexity. Companies typically spend $200K-$800K annually maintaining DCMA-approved systems through internal audits, system updates, and compliance monitoring. Remediation costs for deficient systems average $750K-$2.5M per system, including consultant fees, system modifications, and DCMA re-approval processes. Full compliance achievement typically requires 12-18 months for companies with established systems, or 24-36 months for organizations building from scratch. Cost variations are driven by contractor size, existing ERP capabilities, historical DCMA relationships, and the number of applicable business systems requiring approval.",
+  "crossReferences": "DFARS 252.242-7005 operates within an integrated compliance framework connecting business system integrity to broader acquisition requirements. The clause directly interfaces with DFARS 252.215-7002 (Cost Estimating System Requirements) and 252.234-7002 (EVMS requirements), ensuring cost proposal accuracy and program performance visibility. Business system compliance supports NIST 800-171 System and Information Integrity (SI) and Audit and Accountability (AU) control families, particularly AU-2 and AU-6 for audit record generation and review. The purchasing system requirements under 252.242-7005 directly enable CMMC Level 2 supply chain risk management (SR.L2-3.11.1) by establishing subcontractor cybersecurity assessment capabilities. Additionally, deficiencies in contractor business systems can trigger enhanced Cost Accounting Standards (CAS) surveillance under DFARS 252.230-6002, creating cascading compliance obligations.",
+  "procurementGuidance": "DFARS 252.242-7005 appears in all solicitations for CAS-covered contracts where business system oversight is anticipated, typically cost-reimbursement and incentive contracts exceeding $50M. During source selection, contracting officers evaluate contractor business system maturity through DCMA surveillance reports and self-certifications submitted with proposals. Contractors should prepare detailed business system summaries demonstrating DCMA approval status, recent surveillance results, and corrective action closeout timelines. In proposals, address business system integration capabilities, continuous improvement processes, and subcontractor oversight mechanisms. Include organizational charts showing business system ownership, DCMA relationship management protocols, and contingency plans for addressing potential deficiencies. Emphasize business system modernization investments and data analytics capabilities that exceed minimum DCMA requirements, as these differentiate proposals in competitive environments.",
+  "complianceChecklist": [
+    "Contracts team must identify all CAS-covered contracts exceeding $50M and determine which of the six business systems apply to each contract vehicle.",
+    "Finance director should conduct annual business system self-assessments using DCMA guidance and document results in formal management reports.",
+    "Compliance officer must maintain current DCMA approval letters for all applicable business systems and track expiration dates in a centralized tracking system.",
+    "Quality assurance team should implement continuous monitoring processes for each business system, including monthly deficiency trending and root cause analysis.",
+    "IT director must ensure business system integration supports DCMA audit trails and maintains data integrity across all cost allocation processes.",
+    "Legal counsel should review subcontract flowdown requirements and ensure major subcontractors meet business system compliance obligations.",
+    "Program managers must coordinate with DCMA Administrative Contracting Officers (ACOs) quarterly to address emerging issues before they become significant deficiencies.",
+    "Chief Financial Officer should establish segregated accounts for potential payment withholds and maintain contingency funding for rapid remediation efforts."
+  ]
+}

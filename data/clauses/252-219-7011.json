@@ -1,0 +1,48 @@
+{
+  "clause": "252.219-7011",
+  "slug": "252-219-7011",
+  "title": "Notification to Delay Performance",
+  "category": "small-business",
+  "description": "This clause requires small business contractors on set-aside contracts to notify the contracting officer before subcontracting more than 50% of the contract value to non-small businesses. This prevents pass-through arrangements that undermine small business programs.",
+  "applicability": "DoD small business set-aside contracts.",
+  "keyRequirements": [
+    "Provide 10-day notice before subcontracting over 50% to non-small businesses",
+    "Ensure actual performance by the small business prime",
+    "Comply with limitations on subcontracting"
+  ],
+  "flowdown": false,
+  "relatedNist": [],
+  "relatedHubs": [
+    "winning"
+  ],
+  "searchTier": "low",
+  "faq": [
+    {
+      "question": "What is DFARS 252.219-7011?",
+      "answer": "DFARS 252.219-7011 (Notification to Delay Performance) This clause requires small business contractors on set-aside contracts to notify the contracting officer before subcontracting more than 50% of the contract value to non-small businesses. This prevent"
+    },
+    {
+      "question": "Does DFARS 252.219-7011 flow down to subcontractors?",
+      "answer": "No, DFARS 252.219-7011 does not flow down to subcontractors. This clause applies only to the prime contractor."
+    },
+    {
+      "question": "When does DFARS 252.219-7011 apply?",
+      "answer": "DoD small business set-aside contracts."
+    }
+  ],
+  "practicalExample": "TechFlow Solutions, a small IT services contractor, won a $2.8M DoD network modernization set-aside contract in March 2025. During execution, they identified a need for specialized cloud infrastructure services requiring $1.5M in subcontracting to Amazon Web Services (a large business), pushing total large business subcontracting to 54% of contract value. Without proper notification under 252.219-7011, TechFlow risked immediate contract termination and potential False Claims Act liability. The contracting officer required TechFlow to submit a detailed performance plan within 10 days, demonstrating how they would maintain meaningful work performance (minimum 46% of contract value). TechFlow restructured the SOW, reducing AWS subcontract to $1.2M (43% total) and taking on additional cloud management responsibilities in-house. This required hiring two additional engineers at $180K annually but preserved the contract. The lesson: always calculate subcontracting percentages before finalizing major subcontracts and maintain 10-15% buffer below the 50% threshold.",
+  "whyItMatters": "This clause prevents 'pass-through' arrangements where small businesses win set-aside contracts but immediately subcontract most work to large businesses, defeating the purpose of small business programs. It affects small business primes on set-aside contracts, creating potential contract termination risk if violated. Non-compliance can trigger False Claims Act investigations (treble damages plus $13,508-$27,018 per false claim as of 2025), suspension/debarment proceedings, and immediate contract termination. While not directly connected to CMMC 2.0, violations can impact a contractor's responsibility determination for future awards. The 2025-2026 regulatory trend shows increased SBA surveillance of subcontracting compliance, with new data analytics tools detecting suspicious patterns. DoD's emphasis on authentic small business participation makes this clause increasingly scrutinized during performance reviews and compliance audits.",
+  "complianceCost": "Initial compliance setup ranges from $15,000-$40,000, including subcontract tracking system implementation, legal review of subcontracting plans, and staff training. Annual ongoing costs typically run $8,000-$25,000 for contract monitoring, quarterly subcontracting reports, and compliance reviews. Non-compliance remediation can cost $100,000-$500,000+ including legal fees, contract restructuring, potential termination costs, and SBA appeals processes. Timeline to achieve compliance is typically 30-60 days for existing contracts. Cost variation depends primarily on contract portfolio size, existing financial tracking systems, and complexity of subcontracting arrangements. Companies with robust ERP systems and dedicated contracts personnel experience lower compliance costs, while those relying on manual tracking face higher ongoing expenses and greater non-compliance risk.",
+  "crossReferences": "DFARS 252.219-7011 operates in conjunction with FAR 52.219-14 (Limitations on Subcontracting) which establishes the fundamental 50% rule for small business set-asides. It connects to DFARS 252.244-7000 (Subcontracts for Commercial Items) regarding flowdown requirements and 252.219-7003 (Small Business Subcontracting Plan) for comprehensive subcontracting strategy. While not directly tied to NIST 800-171 or CMMC, violations can impact contractor responsibility determinations under DFARS 209.405, affecting eligibility for future contracts requiring CMMC compliance. The clause interacts with SBA's subcontracting surveillance under 13 CFR 125.3, creating potential overlapping jurisdiction issues that contractors must navigate carefully during performance.",
+  "procurementGuidance": "This clause automatically appears in all DoD small business set-aside solicitations including 8(a), HUBZone, SDVOSB, and WOSB contracts. During source selection, contracting officers evaluate subcontracting plans for realism and compliance with limitations, often requesting detailed breakdowns of planned large business utilization. Prepare proposals with detailed subcontracting matrices showing percentage allocations and maintain 10-15% buffer below 50% threshold. Include narrative explanations of how the small business prime will perform meaningful work. Post-award, establish robust tracking systems and maintain open communication with contracting officers about any changes to subcontracting plans. Document all performance activities to demonstrate authentic small business participation if challenged during compliance reviews or SBA examinations.",
+  "complianceChecklist": [
+    "Contracts personnel must establish automated tracking systems to monitor cumulative subcontracting percentages by contract in real-time using existing ERP or accounting systems.",
+    "Legal counsel should review all subcontracts exceeding $100,000 to ensure large business subcontracting remains below 45% threshold before execution.",
+    "Program managers must submit written notification to contracting officers at least 10 business days before any subcontracting action that would exceed 50% to large businesses.",
+    "Finance teams should generate monthly subcontracting reports showing cumulative percentages by prime contract and flag contracts approaching 45% large business utilization.",
+    "Contracts administrators must maintain documentation in contract files proving small business prime performs meaningful work constituting at least 50% of contract value.",
+    "Compliance officers should conduct quarterly reviews of all set-aside contracts to verify subcontracting limitations compliance and update tracking systems.",
+    "Business development personnel must incorporate subcontracting percentage calculations into teaming agreements and proposal development processes before bid submission.",
+    "Senior management should establish approval workflows requiring executive sign-off for any subcontracting arrangements exceeding 40% to large businesses on set-aside contracts."
+  ]
+}

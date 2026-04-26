@@ -1,0 +1,49 @@
+{
+  "clause": "252.227-7017",
+  "slug": "252-227-7017",
+  "title": "Identification and Assertion of Use, Release, or Disclosure Restrictions",
+  "category": "intellectual-property",
+  "description": "This clause requires offerors to identify and assert any restrictions on the government's use, release, or disclosure of technical data and software before contract award. The assertions help the government understand what restrictions will apply and negotiate accordingly.",
+  "applicability": "Included in DoD solicitations to collect contractor assertions about data rights restrictions before contract award.",
+  "keyRequirements": [
+    "Identify all restricted technical data and software before award",
+    "Assert specific restrictions with legal basis",
+    "Government reviews and may challenge assertions",
+    "Unmarked data may be treated as unlimited rights"
+  ],
+  "flowdown": true,
+  "relatedNist": [],
+  "relatedHubs": [
+    "proposal"
+  ],
+  "searchTier": "medium",
+  "faq": [
+    {
+      "question": "What is DFARS 252.227-7017?",
+      "answer": "DFARS 252.227-7017 (Identification and Assertion of Use, Release, or Disclosure Restrictions) This clause requires offerors to identify and assert any restrictions on the government's use, release, or disclosure of technical data and software before contract award. The assertions help the gove"
+    },
+    {
+      "question": "Does DFARS 252.227-7017 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.227-7017 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.227-7017 apply?",
+      "answer": "Included in DoD solicitations to collect contractor assertions about data rights restrictions before contract award."
+    }
+  ],
+  "practicalExample": "TechForward Systems, a mid-size software development firm, submitted a $15M proposal for a Navy cybersecurity platform. During proposal preparation, their contracts team failed to properly identify proprietary algorithms developed with $2.3M in internal R&D funding as restricted technical data under DFARS 252.227-7017. The company submitted generic boilerplate assertions without specifying which data elements contained restrictions. Post-award, during the first data delivery milestone at month 8, the Navy's contracting officer challenged the blanket assertions, demanding detailed justification for each restriction claimed. TechForward's legal team spent 320 hours at $450/hour ($144,000) conducting a forensic review of their codebase to properly identify and document restrictions. The Navy ultimately accepted 60% of the revised assertions but gained unlimited rights to $900,000 worth of previously protected intellectual property. The 4-month delay triggered liquidated damages of $50,000. Lesson learned: Front-load the intellectual property review during proposal development, not after contract award.",
+  "whyItMatters": "This clause triggers whenever DoD solicitations include deliverable data requirements, affecting both primes and subcontractors who develop or deliver technical data and software. The clause directly connects to CMMC 2.0 Level 2 requirements for protecting Controlled Unclassified Information (CUI), as improperly marked data may lose government protection. Worst-case consequences include inadvertent disclosure of proprietary information (potential False Claims Act liability up to $23,331 per violation), loss of competitive advantage through forced unlimited rights grants, and contract termination for material misrepresentation. The 2026 regulatory trend toward AI/ML development contracts intensifies risks, as algorithms and training data represent high-value intellectual property. Companies that fail to properly assert restrictions during the pre-award phase lose negotiating leverage permanently, as post-award challenges favor the government's interpretation of data rights scope.",
+  "complianceCost": "Initial compliance ranges from $25,000-$75,000 for small contractors to $150,000-$400,000 for large primes, depending on intellectual property portfolio complexity. Annual maintenance costs average $15,000-$50,000 for ongoing data rights tracking and assertion updates. Non-compliance remediation costs $100,000-$500,000, including legal review, forensic analysis, and potential intellectual property losses. Typical compliance timeline spans 3-6 months for initial implementation. Cost drivers include: existing intellectual property management maturity, number of concurrent proposals requiring assertions, software development methodology documentation, and subcontractor data rights coordination complexity. Companies with robust product lifecycle management systems achieve 40% lower ongoing costs compared to those relying on manual tracking processes.",
+  "crossReferences": "DFARS 252.227-7017 interconnects directly with 252.227-7014 (Rights in Noncommercial Technical Data and Computer Software), which governs actual data rights once asserted restrictions are accepted or challenged. The clause supports NIST 800-171 control family AC (Access Control) by establishing intellectual property boundaries, and CM (Configuration Management) through formal assertion documentation. CMMC Level 2 certification requires demonstrating CUI protection capabilities that align with properly marked restricted data under this clause. Compliance flows into 252.204-7012 (Safeguarding CUI) as restricted technical data often constitutes CUI requiring protection. The clause also connects to 252.225-7048 (Export Control) when restricted data contains export-controlled technical information, creating overlapping compliance obligations for dual-use technologies.",
+  "procurementGuidance": "This clause appears in all DoD solicitations requiring technical data or software deliverables, typically in Section H (Special Contract Requirements) with specific instructions in Section L (Instructions to Offerors). Source selection evaluation considers data rights assertions under the management approach factor, with evaluators assessing reasonableness of restrictions and potential impact on government objectives. Prepare comprehensive technical data identification matrices, funding source documentation, and legal basis memoranda before proposal submission. Address assertions proactively in your technical proposal narrative, explaining how proposed restrictions align with government requirements while protecting essential intellectual property. Include alternative approaches for disputed items, such as government purpose rights or limited rights with specific use permissions, demonstrating flexibility while maintaining core intellectual property protection.",
+  "complianceChecklist": [
+    "Legal counsel must conduct comprehensive intellectual property audit identifying all technical data and software with potential restrictions 90 days before proposal submission.",
+    "Contracts team shall complete DFARS 252.227-7014 Attachment 1 form documenting specific restrictions, legal basis, and government rights for each data element.",
+    "Engineering leads must provide detailed technical descriptions and development funding sources for all deliverable software and documentation.",
+    "Program manager shall establish data rights matrix mapping each contract deliverable to applicable government rights (unlimited, government purpose, limited, restricted).",
+    "Subcontract administrator must collect and validate subcontractor data rights assertions using DD Form 1423 Contract Data Requirements List.",
+    "Compliance officer shall review all assertions for consistency with company intellectual property policies and prior government contract commitments.",
+    "Proposal manager must include data rights assertions in technical proposal Section L response with supporting documentation.",
+    "Contracts administrator shall update corporate data rights tracking system within 30 days of contract award reflecting final negotiated terms."
+  ]
+}

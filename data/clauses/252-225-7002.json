@@ -1,0 +1,49 @@
+{
+  "clause": "252.225-7002",
+  "slug": "252-225-7002",
+  "title": "Qualifying Country Sources as Subcontractors",
+  "category": "supply-chain",
+  "description": "This clause allows products from qualifying countries (NATO allies and other partner nations with reciprocal procurement agreements) to be treated as domestic products for Buy American Act purposes. It facilitates international defense cooperation while maintaining supply chain requirements.",
+  "applicability": "DoD contracts where Buy American requirements apply and foreign subcontractors from qualifying countries may be used.",
+  "keyRequirements": [
+    "Products from qualifying countries treated as domestic",
+    "Qualifying country list includes NATO allies and partners",
+    "No price evaluation penalty for qualifying country products",
+    "Reciprocal procurement agreements govern eligibility"
+  ],
+  "flowdown": true,
+  "relatedNist": [],
+  "relatedHubs": [
+    "operations"
+  ],
+  "searchTier": "low",
+  "faq": [
+    {
+      "question": "What is DFARS 252.225-7002?",
+      "answer": "DFARS 252.225-7002 (Qualifying Country Sources as Subcontractors) This clause allows products from qualifying countries (NATO allies and other partner nations with reciprocal procurement agreements) to be treated as domestic products for Buy American Act purposes. I"
+    },
+    {
+      "question": "Does DFARS 252.225-7002 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.225-7002 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.225-7002 apply?",
+      "answer": "DoD contracts where Buy American requirements apply and foreign subcontractors from qualifying countries may be used."
+    }
+  ],
+  "practicalExample": "Mid-size defense contractor BAE Systems' U.S. subsidiary was awarded a $45M SOCOM tactical communications contract requiring Buy American compliance. During subcontractor selection, they identified a Canadian firm offering specialized antenna components at $2.3M versus $2.8M for the nearest domestic alternative. Under DFARS 252.225-7002, Canada qualifies as a reciprocal procurement country, allowing BAE to treat the Canadian components as domestic without price penalty. However, the contracting officer initially rejected their subcontractor plan, citing incomplete qualifying country documentation. BAE's contracts team had to provide additional certification proving the Canadian supplier's components originated entirely within Canada, not just assembled there. This 45-day delay cost $150K in schedule acceleration to maintain delivery milestones. The lesson: verify qualifying country suppliers provide complete country-of-origin documentation upfront, including material source certifications, to avoid costly delays during subcontractor approval processes.",
+  "whyItMatters": "DFARS 252.225-7002 directly impacts source selection decisions and cost competitiveness for contractors using international suppliers. This clause affects both primes selecting qualifying country subcontractors and subs from qualifying countries seeking to participate in DoD supply chains. Non-compliance triggers Buy American Act violations, potentially resulting in contract termination for material breach, False Claims Act liability for knowingly false certifications, and suspension/debarment proceedings. The clause intersects with CMMC 2.0 requirements when qualifying country suppliers handle controlled unclassified information, requiring separate cybersecurity compliance verification. The 2026 regulatory trend toward supply chain transparency under Executive Order 14017 makes qualifying country documentation increasingly scrutinized, with enhanced due diligence requirements for country-of-origin verification becoming standard practice in DoD source selection.",
+  "complianceCost": "Initial compliance costs range from $25K-$75K for mid-size contractors, covering legal review of qualifying country supplier agreements, documentation validation processes, and contract flow-down updates. Annual ongoing costs typically run $15K-$35K for maintaining supplier qualification databases and periodic re-verification. Non-compliance remediation costs average $200K-$500K, including legal fees, contract modifications, potential supplier changes, and schedule delays. Compliance timeline spans 90-120 days for initial implementation. Cost variation depends primarily on supplier base complexity, existing contract administration systems, and international sourcing volume. Companies with established NATO contracting experience face lower costs than those new to qualifying country procurement.",
+  "crossReferences": "DFARS 252.225-7002 interconnects with 252.225-7001 (Buy American and Balance of Payments Program) by providing the foundational exception allowing qualifying country treatment, while 252.225-7012 (Preference for Certain Domestic Commodities) establishes the baseline domestic preference requirements. The clause coordinates with 252.204-7012 (Safeguarding Covered Defense Information) when qualifying country suppliers access controlled information, requiring additional security compliance verification. Under CMMC 2.0, qualifying country suppliers handling CUI must demonstrate equivalent cybersecurity controls, linking to NIST 800-171 AC (Access Control) and SC (System and Communications Protection) control families. The clause also flows into 252.204-7019 (Notice of NIST SP 800-171 DoD Assessment Requirements) when qualifying country suppliers require cybersecurity assessments for continued participation in DoD supply chains.",
+  "procurementGuidance": "DFARS 252.225-7002 appears automatically in DoD solicitations exceeding $25K where Buy American requirements apply, particularly in weapon system acquisitions and major subsystem procurements. During source selection, contracting officers evaluate qualifying country sourcing as equivalent to domestic sourcing without price penalties, but require comprehensive country-of-origin documentation. Proposal preparation should include detailed subcontracting plans identifying qualifying country suppliers with complete certification packages demonstrating manufacturing location and material sourcing compliance. Address qualifying country sourcing in technical approach narratives as risk mitigation for supply chain resilience, emphasizing reciprocal procurement agreement benefits. Include cost volume documentation showing qualifying country supplier pricing treated as domestic for evaluation purposes, with supporting country-of-origin certifications as proposal attachments.",
+  "complianceChecklist": [
+    "Contracts team must maintain current qualifying country list per DFARS 225.872-1 and verify supplier country eligibility before subcontractor selection.",
+    "Procurement personnel shall document qualifying country supplier certifications including complete country-of-origin statements and manufacturing location verification.",
+    "Legal counsel must review all qualifying country subcontractor agreements to ensure proper flow-down of domestic source treatment provisions.",
+    "Supply chain managers shall establish supplier qualification databases tracking qualifying country status and periodic re-verification schedules.",
+    "Contracts administrators must update subcontracting plans in SAM.gov to reflect qualifying country suppliers and domestic source treatment justifications.",
+    "ISSO personnel shall coordinate with qualifying country suppliers on CMMC compliance requirements when controlled unclassified information is involved.",
+    "Business development teams must incorporate qualifying country sourcing strategies into proposal cost volumes and technical approach narratives.",
+    "Quality assurance staff shall verify qualifying country suppliers maintain required certifications and country-of-origin documentation throughout contract performance."
+  ]
+}

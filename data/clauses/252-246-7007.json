@@ -1,0 +1,53 @@
+{
+  "clause": "252.246-7007",
+  "slug": "252-246-7007",
+  "title": "Contractor Counterfeit Electronic Part Detection and Avoidance System",
+  "category": "supply-chain",
+  "description": "This clause requires contractors to maintain a system for detecting and avoiding counterfeit electronic parts. The system must include risk-based policies, approved supplier lists, GIDEP reporting, and traceability procedures.",
+  "applicability": "DoD contracts for electronic parts or assemblies containing electronic parts.",
+  "keyRequirements": [
+    "Establish counterfeit detection and avoidance system",
+    "Maintain approved supplier lists",
+    "Report counterfeit parts to GIDEP within 60 days",
+    "Implement traceability for all electronic parts",
+    "Train personnel on counterfeit detection"
+  ],
+  "flowdown": true,
+  "relatedNist": [
+    "ra-3-11-1",
+    "ra-3-11-3"
+  ],
+  "relatedHubs": [
+    "operations"
+  ],
+  "searchTier": "medium",
+  "faq": [
+    {
+      "question": "What is DFARS 252.246-7007?",
+      "answer": "DFARS 252.246-7007 (Contractor Counterfeit Electronic Part Detection and Avoidance System) This clause requires contractors to maintain a system for detecting and avoiding counterfeit electronic parts. The system must include risk-based policies, approved supplier lists, GIDEP reporting, an"
+    },
+    {
+      "question": "Does DFARS 252.246-7007 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.246-7007 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.246-7007 apply?",
+      "answer": "DoD contracts for electronic parts or assemblies containing electronic parts."
+    }
+  ],
+  "practicalExample": "Northwind Defense Systems, a mid-size electronics manufacturer with $45M in annual DoD contracts, discovered counterfeit microprocessors in their radar component assemblies during a routine inspection in March 2024. The parts, sourced through a distributor they'd used for eight years, had fraudulent certifications and failed environmental testing. Under DFARS 252.246-7007, they immediately quarantined 1,200 units valued at $2.8M and reported to GIDEP within 48 hours. The discovery triggered a contract stop-work order on three programs totaling $12M, costing them $185,000 weekly in idle labor. Their counterfeit detection system, implemented two years prior, included incoming inspection protocols and supplier audits that caught the issue before delivery. Resolution took six weeks, requiring $340,000 in replacement parts and $95,000 in additional testing. The lesson: their investment of $125,000 annually in detection systems prevented a potential $15M contract termination and preserved their supplier relationships with the Navy.",
+  "whyItMatters": "This clause activates whenever DoD contracts involve electronic parts or assemblies, affecting both primes and subcontractors in the supply chain. Counterfeit parts threaten mission readiness and warfighter safety, making detection systems mandatory rather than optional. Non-compliance triggers immediate contract performance issues, potential False Claims Act liability exceeding $2M per incident, and possible suspension or debarment from federal contracting. The clause directly supports CMMC 2.0's supply chain risk management requirements under Level 2, particularly SC.L2-3.131 (supply chain element identification) and SC.L2-3.132 (supplier assessment). With the DoD's 2026 focus on trusted supplier networks and the CHIPS Act driving domestic semiconductor production, counterfeit detection capabilities have become a competitive differentiator in source selection evaluations.",
+  "complianceCost": "Initial compliance implementation ranges from $75,000-$300,000 depending on company size and existing quality systems. Small manufacturers typically spend $75,000-$125,000 for basic detection equipment, training, and procedure development. Mid-size contractors invest $150,000-$225,000 for advanced testing capabilities and supplier audit programs. Large primes often exceed $300,000 for comprehensive detection laboratories and GIDEP integration systems. Annual ongoing costs range from $45,000-$180,000 for training, equipment maintenance, and supplier assessments. Non-compliance remediation averages $500,000-$2M including part replacement, retesting, schedule delays, and potential contract modifications. Full compliance typically requires 6-12 months, with timeline variations driven by existing quality management maturity and supplier base complexity.",
+  "crossReferences": "DFARS 252.246-7007 operates alongside 252.204-7012 (cybersecurity requirements) as both address supply chain integrity from different perspectives—physical versus cyber threats. The clause directly supports NIST 800-171 control family SR (Supply Chain Risk Management), particularly SR-2 (supplier security assessments) and SR-3 (supply chain protection). At CMMC Level 2, this clause fulfills supply chain security practices SC.L2-3.131 through SC.L2-3.133, establishing the foundation for trusted supplier relationships. Integration with 252.225-7012 (domestic preference) creates synergy between counterfeit avoidance and domestic sourcing requirements. The clause also connects to 252.246-7008 (sources of electronic parts) by establishing the detection framework that validates authorized supplier channels, creating a comprehensive electronic parts integrity program across the defense industrial base.",
+  "procurementGuidance": "This clause appears in all solicitations involving electronic parts or assemblies, typically in Section H (Special Contract Requirements) with specific performance standards. During source selection, contracting officers evaluate offeror counterfeit detection capabilities as part of past performance and technical approach assessments, often worth 10-15% of technical evaluation criteria. Proposals must demonstrate existing detection systems, qualified personnel, and supplier management processes rather than promises to develop capabilities post-award. Include detailed descriptions of inspection equipment, supplier qualification procedures, and GIDEP reporting processes in technical volumes. Cost proposals should account for ongoing compliance expenses including training, equipment maintenance, and supplier audits. Pre-award surveys frequently verify claimed detection capabilities, so ensure demonstration readiness. Address subcontractor management plans explicitly, as flowdown compliance affects overall contract performance and represents significant evaluation risk in complex supply chains.",
+  "complianceChecklist": [
+    "Quality Manager must establish written counterfeit detection and avoidance system procedures incorporating AS5553 and AS6081 industry standards within 90 days of contract award.",
+    "Procurement team shall maintain approved supplier lists with annual risk assessments and document supplier qualification criteria in contractor purchasing system.",
+    "Receiving inspection personnel must implement incoming inspection protocols including visual examination, electrical testing, and certificate authentication for all electronic parts.",
+    "Quality assurance staff shall report confirmed counterfeit parts to GIDEP database within 60 calendar days of discovery using standardized reporting format.",
+    "Training coordinator must provide annual counterfeit awareness training to procurement, quality, and engineering personnel with documented completion records.",
+    "Supply chain manager shall establish full traceability documentation from original component manufacturer to final assembly for all electronic parts.",
+    "Compliance officer must conduct quarterly internal audits of counterfeit detection system effectiveness and document corrective actions in quality management system.",
+    "Contracts administrator shall ensure flowdown of counterfeit detection requirements to all subcontractors handling electronic parts or assemblies."
+  ]
+}

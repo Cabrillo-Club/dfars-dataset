@@ -1,0 +1,51 @@
+{
+  "clause": "252.204-7009",
+  "slug": "252-204-7009",
+  "title": "Limitations on the Use or Disclosure of Third-Party Contractor Reported Cyber Incident Information",
+  "category": "cybersecurity",
+  "description": "This clause restricts how the government may use or disclose cyber incident information reported by contractors under DFARS 252.204-7012. It protects contractor proprietary information submitted during cyber incident reporting and limits government sharing to authorized purposes only.",
+  "applicability": "Applies to all DoD contracts where the government receives cyber incident information from contractors under the 7012 reporting requirements.",
+  "keyRequirements": [
+    "Government may not use contractor cyber incident data for regulatory enforcement",
+    "Restricts disclosure of proprietary contractor information",
+    "Protects contractor trade secrets in incident reports"
+  ],
+  "flowdown": false,
+  "relatedNist": [
+    "ir-3-6-1",
+    "ir-3-6-2"
+  ],
+  "relatedHubs": [
+    "cmmc"
+  ],
+  "searchTier": "medium",
+  "faq": [
+    {
+      "question": "What is DFARS 252.204-7009?",
+      "answer": "DFARS 252.204-7009 (Limitations on the Use or Disclosure of Third-Party Contractor Reported Cyber Incident Information) This clause restricts how the government may use or disclose cyber incident information reported by contractors under DFARS 252.204-7012. It protects contractor proprietary information submitted durin"
+    },
+    {
+      "question": "Does DFARS 252.204-7009 flow down to subcontractors?",
+      "answer": "No, DFARS 252.204-7009 does not flow down to subcontractors. This clause applies only to the prime contractor."
+    },
+    {
+      "question": "When does DFARS 252.204-7009 apply?",
+      "answer": "Applies to all DoD contracts where the government receives cyber incident information from contractors under the 7012 reporting requirements."
+    }
+  ],
+  "practicalExample": "MidTech Solutions, a 150-employee software firm, held a $12M DoD contract for enterprise resource planning systems. In March 2024, they detected unauthorized access to development servers containing controlled technical information. Following DFARS 252.204-7012, they reported the incident to DoD CIO within 72 hours, including detailed forensic analysis, affected system architectures, and proprietary database schemas. Six months later, MidTech discovered DoD had shared their incident report with the Air Force Inspector General's office for an unrelated contractor investigation. The disclosure included MidTech's proprietary encryption methodologies and customer data structures—trade secrets worth approximately $2.3M in R&D investment. MidTech invoked DFARS 252.204-7009 protections, filed a formal objection, and demanded the information be recalled. DoD acknowledged the improper disclosure and implemented additional access controls. MidTech's legal costs totaled $85,000, but they avoided potential competitive disadvantage. The lesson: contractors must explicitly mark proprietary information in incident reports and maintain detailed records of what constitutes trade secrets to leverage 7009 protections effectively.",
+  "whyItMatters": "This clause creates critical protection boundaries for contractors reporting cyber incidents under 7012. Without these protections, contractors would face an impossible choice: comply with mandatory incident reporting or protect proprietary information. The clause affects all prime contractors holding DoD contracts containing 7012 requirements, particularly those in competitive commercial markets where trade secrets drive value. Violation triggers severe consequences including potential False Claims Act liability for knowingly submitting false information, contract termination for non-cooperation with investigations, and competitive disadvantage from proprietary information disclosure. Under CMMC 2.0's increased enforcement beginning January 2026, incident reporting frequency will increase dramatically as contractors face more rigorous cybersecurity assessments. This makes 7009 protections increasingly vital as DoD processes higher volumes of sensitive contractor data, creating greater risk for inadvertent disclosure.",
+  "complianceCost": "Initial compliance costs range from $15,000-$45,000, primarily for legal review of information marking procedures and incident response plan updates. Companies must invest $8,000-$20,000 annually in training information security and contracts personnel on proper proprietary marking techniques. Non-compliance remediation costs escalate rapidly: legal fees for disclosure disputes average $75,000-$150,000, while competitive damage from trade secret exposure can reach millions depending on information sensitivity. Typical compliance timeline spans 60-90 days for policy development and staff training. Cost variation depends significantly on existing information classification procedures—companies with robust intellectual property protection programs adapt quickly, while those lacking formal trade secret identification processes face higher implementation costs and extended timelines for developing systematic marking protocols.",
+  "crossReferences": "DFARS 252.204-7009 creates essential protections enabling compliance with 252.204-7012's mandatory cyber incident reporting requirements. Without 7009's disclosure limitations, contractors would struggle to balance 7012 reporting obligations with proprietary information protection duties. The clause directly supports CMMC Level 2 requirements under 252.204-7021 by ensuring contractors can safely report incidents without compromising trade secrets that drive competitive advantage. It maps primarily to NIST 800-171 IR-6 (Incident Reporting) and SI-5 (Security Alerts) control families, providing procedural safeguards for information submitted during incident response activities. The protections established under 7009 flow into 252.204-7019 SPRS reporting by ensuring contractors accurately report cybersecurity posture without fear of proprietary methodology disclosure. This interconnected framework enables comprehensive cybersecurity transparency while preserving legitimate commercial interests essential for defense industry competition and innovation.",
+  "procurementGuidance": "DFARS 252.204-7009 appears automatically in solicitations containing 252.204-7012 incident reporting requirements, typically in Section I (Contract Clauses) rather than Section M (Evaluation Factors). Source selection teams rarely evaluate 7009 compliance directly since it establishes government obligations rather than contractor requirements. However, proposal teams should address information protection capabilities in cybersecurity narratives, demonstrating sophisticated proprietary data identification and marking procedures. Prepare detailed information classification matrices showing trade secret categories, marking protocols, and protection procedures. Include past performance examples of successful incident reporting while maintaining proprietary information security. During negotiations, clarify which information categories warrant 7009 protection and establish clear marking standards. Document your company's intellectual property portfolio and protection procedures in proposal attachments, emphasizing systematic approaches to identifying proprietary information requiring disclosure limitations under government incident investigations.",
+  "complianceChecklist": [
+    "Legal counsel must review and update incident response procedures to include proprietary information identification and marking requirements within 30 days.",
+    "ISSO shall establish written procedures for systematically identifying and marking trade secrets, proprietary data, and confidential commercial information in all cyber incident reports.",
+    "Contracts team must maintain a master list of proprietary information categories specific to each DoD contract, updated quarterly in contract management systems.",
+    "Information security staff shall implement technical controls preventing inadvertent inclusion of unmarked proprietary data in incident reports submitted through DIBNet.",
+    "Legal department must create template language for asserting 7009 protections and objecting to improper government disclosure of contractor information.",
+    "ISSO shall establish monitoring procedures to track government use of reported incident information and identify potential unauthorized disclosures.",
+    "Training manager must conduct annual briefings for incident response team members on proper application of proprietary markings and 7009 protection procedures.",
+    "Compliance officer shall maintain detailed records of all proprietary information submitted to DoD, including marking justifications and protection assertions."
+  ]
+}

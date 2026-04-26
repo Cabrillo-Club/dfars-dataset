@@ -1,0 +1,49 @@
+{
+  "clause": "252.219-7004",
+  "slug": "252-219-7004",
+  "title": "Small Business Subcontracting Plan (Test Program)",
+  "category": "small-business",
+  "description": "This clause implements the DoD comprehensive subcontracting plan test program. Approved contractors may negotiate a single plan covering all DoD contracts rather than individual plans per contract, reducing administrative burden while maintaining small business goals.",
+  "applicability": "Contractors approved to participate in the DoD comprehensive subcontracting plan test program.",
+  "keyRequirements": [
+    "Negotiate comprehensive plan covering all DoD contracts",
+    "Consolidated goals across all contracts",
+    "Simplified reporting through eSRS",
+    "Must maintain test program participation approval"
+  ],
+  "flowdown": false,
+  "relatedNist": [],
+  "relatedHubs": [
+    "winning"
+  ],
+  "searchTier": "low",
+  "faq": [
+    {
+      "question": "What is DFARS 252.219-7004?",
+      "answer": "DFARS 252.219-7004 (Small Business Subcontracting Plan (Test Program)) This clause implements the DoD comprehensive subcontracting plan test program. Approved contractors may negotiate a single plan covering all DoD contracts rather than individual plans per contract, re"
+    },
+    {
+      "question": "Does DFARS 252.219-7004 flow down to subcontractors?",
+      "answer": "No, DFARS 252.219-7004 does not flow down to subcontractors. This clause applies only to the prime contractor."
+    },
+    {
+      "question": "When does DFARS 252.219-7004 apply?",
+      "answer": "Contractors approved to participate in the DoD comprehensive subcontracting plan test program."
+    }
+  ],
+  "practicalExample": "MidTech Solutions, a $150M IT systems integrator, was awarded three separate DoD contracts totaling $45M over 18 months. Under standard DFARS 252.219-7003, they would need individual subcontracting plans for each contract, requiring separate small business goals, reporting, and administrative overhead costing approximately $75,000 annually in compliance management. After gaining approval for the comprehensive subcontracting plan test program under 252.219-7004, MidTech negotiated a single plan covering all DoD work with consolidated goals: 23% small business, 5% small disadvantaged business, 3% women-owned small business, 3% HUBZone, and 3% service-disabled veteran-owned small business. This reduced their administrative burden by 60%, saving $45,000 annually while maintaining the same $10.35M small business subcontracting commitment across all contracts. The streamlined eSRS reporting allowed their contracts team to focus on actual small business engagement rather than redundant paperwork, ultimately exceeding their consolidated goals by achieving 26% small business participation.",
+  "whyItMatters": "This clause addresses the administrative complexity faced by contractors managing multiple DoD contracts simultaneously, particularly affecting mid-to-large defense contractors with diverse DoD portfolios. Without comprehensive plan approval, contractors must develop separate subcontracting plans for each contract over $750,000, creating redundant administrative processes and inconsistent small business engagement strategies. Non-compliance risks include contract termination for cause, False Claims Act exposure for misreported achievements, and potential debarment from federal contracting. While not directly connected to CMMC 2.0, contractors participating in this test program must maintain robust contract management systems that align with cybersecurity documentation requirements. The 2026 regulatory trend toward consolidated compliance frameworks makes this test program increasingly valuable as DoD seeks to reduce contractor administrative burden while maintaining small business participation goals, with potential expansion beyond the current test program phase.",
+  "complianceCost": "Initial compliance costs range from $25,000-$75,000, including legal review of comprehensive plan terms, system modifications for consolidated reporting, and staff training on test program requirements. Annual ongoing costs typically run $15,000-$45,000 for plan maintenance, eSRS reporting, and quarterly compliance reviews. Non-compliance remediation costs can reach $150,000-$500,000, including plan restructuring, contract modifications, and potential dispute resolution. Achieving test program approval typically takes 6-12 months from application to implementation. Cost variations depend primarily on contractor size, number of existing DoD contracts, current subcontracting infrastructure, and complexity of small business engagement across different contract types. Larger contractors with established small business programs see greater cost savings relative to the investment required.",
+  "crossReferences": "DFARS 252.219-7004 works in conjunction with 252.219-7003 (Small Business Subcontracting Plan) as the standard clause it replaces for test program participants. The comprehensive plan requirements align with 252.215-7000 (Pricing Adjustments) when subcontracting costs affect contract pricing, and intersect with 252.244-7000 (Subcontracts for Commercial Products and Commercial Services) for commercial subcontracting reporting. While not directly tied to NIST 800-171 controls, contractors must maintain robust contract management systems that support both small business compliance and cybersecurity requirements under 252.204-7012. The test program's emphasis on consolidated reporting and documentation management supports the systematic approach required for CMMC Level 1 documentation practices, particularly regarding contract compliance tracking and subcontractor management processes essential for defense supply chain oversight.",
+  "procurementGuidance": "This clause appears in solicitations only for contractors pre-approved for the comprehensive subcontracting plan test program, typically included as an addendum or modification to standard small business clauses. During source selection, evaluators assess the contractor's approved test program status and comprehensive plan effectiveness rather than individual contract subcontracting approaches. Contractors should prepare documentation demonstrating test program approval, historical performance under comprehensive plans, and ability to achieve consolidated small business goals. In proposals, emphasize administrative efficiencies, consistent small business engagement strategies across contracts, and enhanced reporting capabilities. Address how comprehensive plan coverage will support contract performance and small business goal achievement. Include letters of commitment from key small business subcontractors and demonstrate understanding of consolidated reporting requirements through eSRS. Highlight any value-added benefits from streamlined subcontractor management and reduced administrative overhead that can be passed to the government.",
+  "complianceChecklist": [
+    "Contracts Director must submit comprehensive subcontracting plan test program application to cognizant DCMA office with justification demonstrating administrative efficiency gains.",
+    "Legal Counsel must review and negotiate comprehensive plan terms ensuring consolidated goals align with individual contract requirements and company capabilities.",
+    "Small Business Liaison Officer must establish consolidated small business goals across all covered DoD contracts using historical performance data and market analysis.",
+    "Finance Director must implement cost accounting systems to track small business expenditures across multiple contracts under unified reporting structure.",
+    "Contracts Administrator must modify existing DoD contracts to reference comprehensive plan and update contract files with test program participation documentation.",
+    "Compliance Manager must establish quarterly internal reviews of consolidated goal achievement and subcontractor performance across all covered contracts.",
+    "Small Business Liaison Officer must maintain eSRS reporting capability for consolidated submissions and ensure timely semi-annual Individual Subcontract Reports.",
+    "Program Managers must coordinate with Small Business Liaison Officer to ensure all new DoD contract awards are incorporated into comprehensive plan coverage."
+  ]
+}

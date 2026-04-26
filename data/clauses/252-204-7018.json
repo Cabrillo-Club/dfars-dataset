@@ -1,0 +1,51 @@
+{
+  "clause": "252.204-7018",
+  "slug": "252-204-7018",
+  "title": "Prohibition on the Acquisition of Covered Defense Telecommunications Equipment or Services",
+  "category": "supply-chain",
+  "description": "This clause implements Section 889 of the 2019 NDAA, prohibiting the DoD from acquiring telecommunications equipment or services from covered entities including Huawei, ZTE, Hytera, Hikvision, and Dahua. Contractors must report any discovery of covered equipment in their supply chain.",
+  "applicability": "All DoD contracts. This is a broad prohibition applying to procurement, use, and provision of covered telecommunications equipment.",
+  "keyRequirements": [
+    "No acquisition of covered telecommunications equipment (Huawei, ZTE, etc.)",
+    "Report discovery of covered equipment within 1 business day",
+    "Complete supply chain disclosure for telecom components",
+    "Reasonable inquiry into supply chain sources required"
+  ],
+  "flowdown": true,
+  "relatedNist": [
+    "ra-3-11-1"
+  ],
+  "relatedHubs": [
+    "operations"
+  ],
+  "searchTier": "medium",
+  "faq": [
+    {
+      "question": "What is DFARS 252.204-7018?",
+      "answer": "DFARS 252.204-7018 (Prohibition on the Acquisition of Covered Defense Telecommunications Equipment or Services) This clause implements Section 889 of the 2019 NDAA, prohibiting the DoD from acquiring telecommunications equipment or services from covered entities including Huawei, ZTE, Hytera, Hikvision, and Dah"
+    },
+    {
+      "question": "Does DFARS 252.204-7018 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.204-7018 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.204-7018 apply?",
+      "answer": "All DoD contracts. This is a broad prohibition applying to procurement, use, and provision of covered telecommunications equipment."
+    }
+  ],
+  "practicalExample": "TechDefense Solutions, a mid-size IT services contractor with $45M in annual DoD revenue, discovered during a routine network audit that their headquarters security camera system contained 12 Hikvision cameras purchased in 2019 for $18,000. The cameras were integrated with their facility access control system that processed CUI. Within 24 hours of discovery, they reported to the Contracting Officer per DFARS 252.204-7018. The immediate response cost $8,500 for emergency replacement cameras and $12,000 for expedited installation to avoid facility security gaps. However, the real impact came when their prime contractor froze $2.3M in pending task orders pending remediation verification. The 45-day remediation timeline cost an additional $35,000 in consultant fees and lost productivity. The lesson: proactive supply chain mapping before equipment purchases would have saved $55,500 and prevented contract delays.",
+  "whyItMatters": "This clause creates absolute liability for contractors regardless of intent or knowledge. It's triggered by any presence of covered equipment in facilities handling DoD contracts, extending beyond IT systems to physical security, building automation, and even vendor-provided services. Both primes and subcontractors face identical obligations, with primes bearing additional flow-down enforcement responsibility. Non-compliance triggers immediate contract performance suspension, potential False Claims Act exposure for payments received while non-compliant, and mandatory disclosure that becomes public record. Under CMMC 2.0, covered equipment presence can void cybersecurity certifications regardless of other controls. The 2026 expansion to include additional Chinese entities and cloud services makes supply chain visibility increasingly critical for maintaining contract eligibility.",
+  "complianceCost": "Initial compliance ranges from $15,000-$75,000 depending on facility size and existing equipment inventory. Mid-size contractors typically spend $35,000 on comprehensive supply chain audits, equipment replacement, and policy development. Annual ongoing costs average $8,000-$25,000 for supply chain monitoring, vendor attestations, and quarterly equipment audits. Non-compliance remediation averages $85,000-$200,000 including emergency equipment replacement, consultant fees, and contract performance delays. Full compliance timeline spans 60-120 days for most contractors. Cost drivers include facility square footage, number of subcontractors, existing security infrastructure age, and integration complexity with building management systems.",
+  "crossReferences": "This clause operates as a foundational supply chain security requirement that directly impacts CMMC 2.0 compliance under DFARS 252.204-7021. The supply chain risk assessment mandated here feeds into NIST 800-171 control family SR (Supply Chain Risk Management), particularly SR-2 and SR-3 requirements for supplier assessments and threat monitoring. Covered equipment presence can invalidate cybersecurity certifications regardless of other NIST 800-171 implementations. The clause interconnects with 252.204-7012 (Safeguarding Requirements) by defining prohibited equipment that cannot be used in CUI processing environments. It also supports 252.204-7019 (SPRS Reporting) by requiring documentation of supply chain security posture. The prohibition creates a baseline security requirement that enables effective implementation of 252.225-7059 (Restriction on Acquisition of Certain Articles Containing Specialty Metals) by establishing precedent for supply chain transparency and verification procedures.",
+  "procurementGuidance": "This clause appears in all DoD solicitations regardless of contract value or type, making it a universal requirement for government contractors. Source selection evaluation includes verification of offeror supply chain certification and proposed equipment manufacturer identification. Prepare comprehensive supplier attestation documentation, equipment inventory matrices, and supply chain risk management procedures for proposal submission. Address compliance in your technical approach by demonstrating proactive supply chain monitoring and incident response capabilities. Include cost estimates for ongoing compliance monitoring and potential equipment replacement in pricing strategies. During negotiations, clarify government responsibilities for existing equipment remediation and establish timelines for compliance verification. Post-award performance monitoring includes quarterly supplier recertification and immediate notification procedures for any covered equipment discovery in your supply chain.",
+  "complianceChecklist": [
+    "Procurement personnel must implement pre-award supplier certification requiring attestation of no covered telecommunications equipment in proposed solutions and ongoing services.",
+    "Facilities management must conduct comprehensive inventory of all telecommunications and security equipment, documenting manufacturer, model, and supply chain origin for items installed since August 2018.",
+    "Contracts personnel must insert flowdown language in all subcontracts requiring immediate notification of any covered equipment discovery with 1-business-day reporting timeline.",
+    "ISSO must establish quarterly monitoring procedures for newly installed telecommunications equipment and maintain current supplier attestation database accessible for government audit.",
+    "Legal counsel must develop incident response procedures for covered equipment discovery including Contracting Officer notification templates and remediation timeline documentation.",
+    "Supply chain manager must maintain vendor certification matrix tracking telecommunications equipment suppliers and requiring annual recertification of covered equipment absence.",
+    "Finance personnel must establish segregated accounting for covered equipment remediation costs to support potential government reimbursement claims under contract modifications.",
+    "IT security must coordinate with CMMC assessors to ensure covered equipment absence verification is documented in System Security Plans and assessment evidence packages."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "clause": "252.232-7003",
+  "slug": "252-232-7003",
+  "title": "Electronic Submission of Payment Requests and Receiving Reports",
+  "category": "general",
+  "description": "This clause requires contractors to submit payment requests and receiving reports electronically through WAWF/iRAPT. Electronic submission replaces paper-based invoicing and accelerates payment processing through DFAS.",
+  "applicability": "All DoD contracts except those paid by purchase card or below the micro-purchase threshold.",
+  "keyRequirements": [
+    "Submit all invoices electronically through WAWF/iRAPT",
+    "Use correct document type for the contract",
+    "Include proper contract line item references",
+    "Coordinate with receiving official for acceptance"
+  ],
+  "flowdown": true,
+  "relatedNist": [],
+  "relatedHubs": [
+    "operations"
+  ],
+  "searchTier": "low",
+  "faq": [
+    {
+      "question": "What is DFARS 252.232-7003?",
+      "answer": "DFARS 252.232-7003 (Electronic Submission of Payment Requests and Receiving Reports) This clause requires contractors to submit payment requests and receiving reports electronically through WAWF/iRAPT. Electronic submission replaces paper-based invoicing and accelerates payment proces"
+    },
+    {
+      "question": "Does DFARS 252.232-7003 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.232-7003 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.232-7003 apply?",
+      "answer": "All DoD contracts except those paid by purchase card or below the micro-purchase threshold."
+    }
+  ],
+  "practicalExample": "MidStream Defense Technologies, a 200-employee cybersecurity contractor, won a $4.2M SOCOM contract for network monitoring services in March 2024. During their first invoice submission for $350,000 in Q1 deliverables, their accounting team attempted to submit a paper invoice through traditional mail, as they had done with their commercial clients. DFAS rejected the payment request within 48 hours, citing DFARS 252.232-7003 non-compliance. The rejection triggered a 30-day payment delay, costing MidStream approximately $2,100 in interest on their credit line used for payroll. Their contracts administrator quickly enrolled in WAWF training, established the company's vendor profile, and coordinated with the government receiving official at MacDill AFB to set up proper electronic submission protocols. The corrected invoice was processed within 7 business days after resubmission through WAWF. Lesson learned: MidStream now includes WAWF setup as a standard post-award requirement in their proposal timelines, allocating 2-3 weeks for system configuration and testing before first invoice submission on any DoD contract.",
+  "whyItMatters": "Electronic submission through WAWF is mandatory for virtually all DoD contracts, affecting both prime contractors and subcontractors flowing down requirements. Non-compliance immediately stops payment processing, creating cash flow disruptions that can cascade through your supply chain. DFAS processes over $400 billion annually through WAWF, and manual intervention for non-compliant submissions can add 45-60 days to payment cycles. Beyond payment delays, repeated non-compliance signals poor contract administration capabilities to Contracting Officers, potentially affecting past performance ratings and future award decisions. This clause intersects with CMMC 2.0 requirements as WAWF handles Controlled Unclassified Information (CUI) during invoice processing. The DoD's 2026 Enterprise Resource Planning (ERP) modernization will further streamline WAWF integration with contract writing systems, making electronic compliance even more critical for maintaining efficient payment processing.",
+  "complianceCost": "Initial WAWF setup costs range from $2,000-$8,000 for small contractors, primarily for staff training (40-60 hours at $75-125/hour) and system configuration. Mid-size contractors typically spend $15,000-$25,000 for enterprise integration with existing ERP systems and multi-user training across accounting and program management teams. Ongoing annual costs average $3,000-$7,000 for user license maintenance, periodic training updates, and system administration. Non-compliance remediation costs $5,000-$15,000 per incident, including expedited training, consultant fees for urgent setup, and potential interest charges on delayed payments. Compliance timeline spans 4-6 weeks for basic setup, extending to 12-16 weeks for complex multi-contract portfolios requiring custom integration. Cost drivers include existing financial system sophistication, number of concurrent contracts, and geographic distribution of accounting personnel requiring training.",
+  "crossReferences": "DFARS 252.232-7003 directly supports broader DoD financial modernization initiatives outlined in DFARS 252.232-7006 (Wide Area WorkFlow Payment Instructions) and connects to contractor business system requirements under DFARS 252.242-7006 (Accounting System Administration). While this clause doesn't directly map to NIST 800-171 controls, electronic submission through WAWF handles CUI during invoice processing, requiring contractors to maintain CMMC Level 2 cybersecurity posture when accessing the system. The clause flows downstream to all subcontractors per DFARS 252.244-7000, creating supply chain electronic submission requirements that must be managed through contractor purchasing systems certified under DFARS 252.244-7001. Compliance with electronic submission requirements also supports the audit trail documentation needed for DCAA-approved accounting systems under FAR 52.216-7, as WAWF maintains comprehensive transaction records for government audit purposes.",
+  "procurementGuidance": "DFARS 252.232-7003 appears in all DoD solicitations except those specifically exempted for commercial purchase card payments or micro-purchases below $10,000. During source selection, evaluators don't typically assess WAWF capability as a technical factor, but contractors should demonstrate understanding of electronic submission requirements in their contract administration approach. Include WAWF setup timelines in your post-award implementation schedule, typically allocating 3-4 weeks between contract award and first invoice submission. For proposals involving subcontractors, address flow-down electronic submission requirements in your subcontract management plan, particularly for small businesses that may need WAWF training support. Contractors with existing WAWF profiles should reference their registration status and processing volume in past performance narratives to demonstrate proven financial management capabilities. New contractors should budget WAWF compliance costs in their indirect rate structures and include system setup as a contract startup cost in their pricing models.",
+  "complianceChecklist": [
+    "Contracts Administrator must register company in WAWF using CAGE code and complete vendor profile setup within 30 days of contract award.",
+    "Accounting Manager must complete WAWF training modules and obtain user credentials for all personnel handling DoD invoicing.",
+    "Program Manager must coordinate with Government Receiving Official to establish acceptance protocols and document routing procedures in WAWF.",
+    "Finance Director must configure WAWF integration with existing ERP systems to ensure proper contract line item number (CLIN) mapping and cost tracking.",
+    "Contracts Administrator must verify correct document type selection (DD Form 250, SF 1449, or commercial format) based on contract type and submission requirements.",
+    "Accounting team must implement quality control procedures to validate invoice data accuracy before electronic submission, including proper contract references and acceptance documentation.",
+    "IT Administrator must ensure WAWF system access compliance with company cybersecurity policies and establish secure document retention procedures for electronic records.",
+    "Program Manager must establish subcontractor coordination procedures for flow-down electronic submission requirements and provide WAWF training resources to supply chain partners."
+  ]
+}

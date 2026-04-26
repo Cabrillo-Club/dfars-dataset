@@ -1,0 +1,54 @@
+{
+  "clause": "252.239-7010",
+  "slug": "252-239-7010",
+  "title": "Cloud Computing Services",
+  "category": "cybersecurity",
+  "description": "This clause establishes requirements for cloud computing services used in DoD contracts. Cloud service providers must meet FedRAMP authorization requirements and comply with the DoD Cloud Computing Security Requirements Guide (SRG). Data must be stored within the United States unless specifically authorized otherwise.",
+  "applicability": "Contracts that involve the use of cloud computing services to process, store, or transmit DoD data, including CUI and other sensitive information.",
+  "keyRequirements": [
+    "Obtain FedRAMP authorization at the required impact level",
+    "Comply with DISA Cloud Computing Security Requirements Guide (SRG)",
+    "Store data within the United States unless authorized otherwise",
+    "Report cloud security incidents per DFARS 252.204-7012 requirements"
+  ],
+  "flowdown": true,
+  "relatedNist": [
+    "sc-3-13-1",
+    "sc-3-13-16",
+    "ac-3-1-1"
+  ],
+  "relatedHubs": [
+    "cmmc",
+    "operations"
+  ],
+  "searchTier": "medium",
+  "faq": [
+    {
+      "question": "What is DFARS 252.239-7010?",
+      "answer": "DFARS 252.239-7010 (Cloud Computing Services) This clause establishes requirements for cloud computing services used in DoD contracts. Cloud service providers must meet FedRAMP authorization requirements and comply with the DoD Cloud Computing Se"
+    },
+    {
+      "question": "Does DFARS 252.239-7010 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.239-7010 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.239-7010 apply?",
+      "answer": "Contracts that involve the use of cloud computing services to process, store, or transmit DoD data, including CUI and other sensitive information."
+    }
+  ],
+  "practicalExample": "TechFlow Systems, a 180-employee IT services contractor, won a $4.2M Air Force contract requiring cloud hosting of logistics data classified as CUI. Initially, they planned to use their existing AWS Commercial environment ($8,000/month) but discovered DFARS 252.239-7010 mandated FedRAMP High authorization. The switch to AWS GovCloud with FedRAMP High certification increased monthly costs to $18,000. When DISA updated the Cloud Computing SRG in Q2 2024, TechFlow had to implement additional encryption controls within 90 days, costing $45,000 in consulting fees and system reconfiguration. A subcontractor attempted to store backup data in their Canadian facility, triggering a security incident report under 252.204-7012 and requiring immediate data repatriation at $12,000 cost. The 6-month compliance journey totaled $180,000 beyond original cloud budget. Lesson learned: Budget 40-60% premium for FedRAMP-authorized services and establish geographic data controls in all subcontracts from day one.",
+  "whyItMatters": "This clause activates whenever DoD contracts involve cloud services processing, storing, or transmitting government data, affecting both primes and subcontractors. Non-compliance triggers immediate contract performance issues, potential False Claims Act violations for billing non-compliant services, and automatic CMMC 2.0 assessment failures since cloud security is a fundamental requirement across all CMMC levels. Worst-case consequences include contract termination, three-year debarment under FAR 9.4, and criminal referrals for willful violations involving classified data. The 2026 CMMC 2.0 full implementation makes this clause critical as assessors will verify cloud provider certifications and data location controls. Recent DoD policy shifts emphasize zero-trust architectures, making FedRAMP High the de facto standard for any CUI processing, significantly expanding this clause's reach beyond traditional IT contracts to manufacturing, logistics, and professional services requiring cloud-based collaboration tools.",
+  "complianceCost": "Initial compliance ranges from $25,000-$150,000 depending on cloud complexity and existing security posture. Small contractors switching from commercial to FedRAMP-authorized services face 200-300% cost increases, while larger organizations with established GovCloud presence see 40-80% premiums. Annual ongoing costs include FedRAMP service premiums ($50,000-$500,000), continuous monitoring tools ($15,000-$75,000), and compliance assessments ($25,000-$100,000). Non-compliance remediation averages $200,000-$800,000 including emergency migrations, incident response, and legal costs. Typical compliance timeline spans 6-12 months for full implementation. Cost drivers include: data volume and classification levels, number of cloud services required, existing security architecture maturity, geographic distribution requirements, and integration complexity with legacy systems requiring air-gapped solutions.",
+  "crossReferences": "This clause integrates directly with DFARS 252.204-7012 (cybersecurity incident reporting) as cloud security incidents must be reported within 72 hours. It supports DFARS 252.204-7021 (CMMC) requirements since cloud security controls map to NIST 800-171 families AC (Access Control), SC (System and Communications Protection), and SI (System and Information Integrity), spanning CMMC Levels 1-3. The geographic data storage requirements complement DFARS 252.204-7008 (export control compliance) and DFARS 252.204-7019 (SPRS reporting) where cloud security scores directly impact contractor assessments. FedRAMP authorization satisfies foundational security requirements that flow into supply chain risk assessments under DFARS 252.204-7020, creating a compliance ecosystem where cloud security posture affects multiple contractual obligations and determines overall contractor cybersecurity maturity ratings.",
+  "procurementGuidance": "This clause appears in all solicitations involving cloud services, typically in Section L (Instructions to Offerors) with specific FedRAMP impact level requirements. Source selection evaluation criteria weight cloud security architecture heavily, requiring detailed technical proposals demonstrating FedRAMP compliance pathways. Prepare comprehensive cloud security plans identifying authorized service providers, data flow diagrams showing geographic boundaries, and incident response procedures. Address subcontractor cloud usage explicitly with flowdown compliance matrices. Include cost analysis comparing commercial versus FedRAMP-authorized alternatives with implementation timelines. Proposal teams should reference specific FedRAMP authorization numbers, CSP continuous monitoring reports, and DISA SRG compliance attestations. Contracting Officers increasingly request cloud security demonstrations during oral presentations, requiring hands-on system access reviews and real-time security control validation, making pre-award compliance verification essential for competitive positioning.",
+  "complianceChecklist": [
+    "ISSO conducts cloud service inventory documenting all SaaS, PaaS, and IaaS solutions processing DoD data with impact level classifications per FIPS 199.",
+    "Contracts team reviews all cloud service agreements ensuring FedRAMP authorization certificates match required impact levels (Low/Moderate/High) specified in contract.",
+    "IT Security validates cloud providers maintain current FedRAMP authorization status through continuous monitoring dashboard at fedramp.gov marketplace.",
+    "Legal counsel establishes data location agreements prohibiting storage outside CONUS without written government authorization per clause requirements.",
+    "ISSO documents cloud security controls implementation in System Security Plan (SSP) cross-referencing DISA Cloud Computing SRG version 2 requirements.",
+    "Compliance officer implements incident reporting procedures connecting cloud security events to DFARS 252.204-7012 within 72-hour timeframe.",
+    "Contracts manager ensures flowdown language appears in all subcontracts involving cloud services with specific FedRAMP authorization requirements.",
+    "IT Security establishes continuous monitoring program documenting cloud configuration changes and security control effectiveness in POA&M updates."
+  ]
+}

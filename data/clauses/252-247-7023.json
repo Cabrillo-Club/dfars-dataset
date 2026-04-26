@@ -1,0 +1,48 @@
+{
+  "clause": "252.247-7023",
+  "slug": "252-247-7023",
+  "title": "Transportation of Supplies by Sea",
+  "category": "general",
+  "description": "This clause implements the Cargo Preference Act for DoD contracts, requiring the use of U.S.-flag vessels for ocean transportation of supplies. Foreign-flag vessels may be used only when U.S. vessels are unavailable.",
+  "applicability": "DoD contracts where supplies will be transported by ocean vessel.",
+  "keyRequirements": [
+    "Use U.S.-flag vessels for sea transportation",
+    "Comply with Cargo Preference Act requirements",
+    "Coordinate with Military Sealift Command",
+    "Obtain authorization for foreign-flag vessels when needed"
+  ],
+  "flowdown": true,
+  "relatedNist": [],
+  "relatedHubs": [
+    "operations"
+  ],
+  "searchTier": "low",
+  "faq": [
+    {
+      "question": "What is DFARS 252.247-7023?",
+      "answer": "DFARS 252.247-7023 (Transportation of Supplies by Sea) This clause implements the Cargo Preference Act for DoD contracts, requiring the use of U.S.-flag vessels for ocean transportation of supplies. Foreign-flag vessels may be used only when U.S. vessels "
+    },
+    {
+      "question": "Does DFARS 252.247-7023 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.247-7023 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.247-7023 apply?",
+      "answer": "DoD contracts where supplies will be transported by ocean vessel."
+    }
+  ],
+  "practicalExample": "A mid-size defense contractor specializing in military vehicle components won a $45 million contract to supply armored personnel carrier parts to U.S. forces in Poland. The contractor arranged ocean shipping through a German-flag vessel to save $180,000 in transportation costs (8% savings over U.S.-flag carriers). During contract performance review, DCMA auditors discovered the foreign-flag vessel usage without proper Military Sealift Command (MSC) authorization. The contractor faced a potential $2.25 million penalty (5% of contract value under the False Claims Act), contract cure notice with 30-day response requirement, and mandatory corrective action plan. Resolution required: re-shipping $800,000 worth of supplies via U.S.-flag vessel at 40% higher cost, legal fees of $75,000, and implementation of transportation compliance procedures. The incident delayed delivery by 6 weeks, triggering liquidated damages of $150,000. Lesson learned: transportation mode decisions require upfront coordination with MSC and cannot be treated as routine logistics optimization without regulatory review.",
+  "whyItMatters": "DFARS 252.247-7023 enforces the Cargo Preference Act's requirement that at least 50% of government-impelled cargo moves on U.S.-flag vessels, directly impacting defense contractors shipping supplies overseas. This affects both prime contractors and subcontractors involved in international supply chains, particularly those supporting OCONUS operations. Non-compliance triggers False Claims Act liability (treble damages plus penalties of $13,508-$27,018 per violation as of 2024), potential contract termination for breach, and suspension/debarment proceedings lasting 12-18 months. While not directly connected to CMMC 2.0, transportation security intersects with supply chain risk management requirements. The regulatory trend toward supply chain scrutiny, exemplified by the 2024 DoD Supply Chain Cybersecurity Strategy and increased focus on critical mineral sourcing, makes maritime transportation compliance increasingly visible during contractor responsibility determinations and past performance evaluations.",
+  "complianceCost": "Initial compliance implementation ranges from $25,000-$75,000 for mid-size contractors, covering policy development, staff training, and transportation management system modifications. Ongoing annual costs typically run $15,000-$40,000 for compliance monitoring, MSC coordination, and documentation maintenance. Non-compliance remediation averages $200,000-$500,000 including re-shipping costs, legal fees, and corrective action implementation. Small contractors may spend 6-8 months achieving full compliance, while larger organizations require 4-6 months due to existing logistics infrastructure. Cost variation depends primarily on shipping volume frequency, geographic distribution of operations, existing transportation management capabilities, and integration complexity with current logistics systems. Companies with established international shipping operations face lower implementation costs than those shipping overseas for the first time.",
+  "crossReferences": "DFARS 252.247-7023 operates independently of cybersecurity-focused DFARS clauses but intersects with supply chain security requirements under 252.204-7012 (Safeguarding CDI) when transportation involves controlled defense information. The clause connects to 252.225-7012 (Preference for Certain Domestic Commodities) in establishing domestic preference hierarchies, and aligns with 252.225-7021 (Trade Agreements) regarding Buy American Act exceptions. Transportation security documentation may trigger NIST 800-171 SC-8 (Transmission Confidentiality) and SC-28 (Protection of Information at Rest) controls when shipping manifests contain sensitive logistics data. While not directly addressed in CMMC 2.0 maturity levels, maritime transportation compliance demonstrates supply chain risk management maturity that assessors evaluate under organizational process requirements.",
+  "procurementGuidance": "DFARS 252.247-7023 appears in solicitations whenever the government anticipates ocean transportation of contract deliverables, regardless of contract value. Source selection teams evaluate transportation compliance capability as part of contractor past performance and responsibility determinations, particularly for OCONUS delivery requirements. Proposals must demonstrate understanding of MSC coordination requirements, U.S.-flag vessel availability assessment procedures, and cost impact analysis methodology. Include transportation compliance matrices showing delivery timeline impacts, cost differentials between U.S.-flag and foreign-flag options, and risk mitigation strategies for vessel availability constraints. Capture teams should engage MSC early during proposal development to validate shipping assumptions and secure preliminary transportation coordination agreements that strengthen delivery confidence ratings during technical evaluation.",
+  "complianceChecklist": [
+    "Contracts personnel must identify all solicitations requiring ocean transportation and flag DFARS 252.247-7023 applicability during bid/no-bid decisions.",
+    "Logistics managers must establish written procedures for coordinating with Military Sealift Command (MSC) prior to arranging any ocean transportation of government supplies.",
+    "Procurement teams must obtain MSC approval documentation before executing any transportation contracts involving foreign-flag vessels when U.S.-flag vessels are unavailable.",
+    "Compliance officers must maintain vessel certification records, MSC correspondence, and transportation manifests for audit trail documentation per FAR 4.805 retention requirements.",
+    "Legal counsel must review all international shipping agreements to ensure Cargo Preference Act compliance clauses flow down to transportation subcontractors and freight forwarders.",
+    "Program managers must incorporate U.S.-flag vessel requirements and associated cost premiums into contract pricing and delivery schedule planning.",
+    "Quality assurance personnel must verify transportation compliance during pre-shipment inspections and coordinate with DCMA for government oversight requirements."
+  ]
+}

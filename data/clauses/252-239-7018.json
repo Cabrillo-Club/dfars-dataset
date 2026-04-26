@@ -1,0 +1,52 @@
+{
+  "clause": "252.239-7018",
+  "slug": "252-239-7018",
+  "title": "Supply Chain Risk",
+  "category": "supply-chain",
+  "description": "This clause authorizes the government to exclude certain supplies or services from a contract based on supply chain risk assessments. The government may determine that a particular supply chain poses unacceptable risks to national security and require the contractor to use alternative sources.",
+  "applicability": "DoD IT acquisitions where supply chain risk assessments indicate potential threats from specific suppliers or sources.",
+  "keyRequirements": [
+    "Government may exclude supplies based on supply chain risk",
+    "Contractor must notify government of supply chain changes",
+    "No right of action against the government for exclusion decisions",
+    "Applies to information technology products and services"
+  ],
+  "flowdown": true,
+  "relatedNist": [
+    "ra-3-11-1",
+    "ra-3-11-3"
+  ],
+  "relatedHubs": [
+    "operations"
+  ],
+  "searchTier": "medium",
+  "faq": [
+    {
+      "question": "What is DFARS 252.239-7018?",
+      "answer": "DFARS 252.239-7018 (Supply Chain Risk) This clause authorizes the government to exclude certain supplies or services from a contract based on supply chain risk assessments. The government may determine that a particular supply chain poses "
+    },
+    {
+      "question": "Does DFARS 252.239-7018 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.239-7018 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.239-7018 apply?",
+      "answer": "DoD IT acquisitions where supply chain risk assessments indicate potential threats from specific suppliers or sources."
+    }
+  ],
+  "practicalExample": "In March 2024, a mid-size cybersecurity firm with $85M in annual DoD contracts faced supply chain exclusion when their primary hardware vendor, a Chinese-manufactured networking equipment provider, was flagged during a routine supply chain risk assessment for their $12M Air Force network modernization contract. The government issued a 30-day notice requiring immediate sourcing alternatives, citing DFARS 252.239-7018. The contractor scrambled to identify approved vendors, ultimately selecting Cisco equipment at 35% higher cost ($4.2M additional). The 45-day vendor transition delayed delivery by 60 days, triggering $180K in liquidated damages. Legal costs for contract modification negotiations reached $75K. Total impact: $4.455M. The firm's lesson: maintain pre-qualified alternative supply chains for all critical components, especially those sourced from countries on the DoD's supply chain risk watchlist. They now maintain relationships with three approved vendors per critical component category, adding $200K annually in vendor management costs but avoiding future supply chain disruptions.",
+  "whyItMatters": "DFARS 252.239-7018 triggers when DoD's supply chain risk assessment identifies potential threats from specific suppliers, particularly those linked to foreign adversaries or entities with concerning cybersecurity postures. Both prime contractors and subcontractors face exposure, as the clause flows down throughout the supply chain. Worst-case consequences include immediate contract termination without contractor fault, potential False Claims Act liability if undisclosed foreign sourcing is discovered, and suspension from future competitions. The clause directly connects to CMMC 2.0's supply chain security requirements, as Level 2 and 3 assessments now include supply chain risk evaluations. With the 2026 implementation of the National Defense Authorization Act's enhanced supply chain provisions and DoD's new Trusted Supplier Database, exclusions will become more frequent and automated, making proactive supply chain management critical for sustained DoD contracting eligibility.",
+  "complianceCost": "Initial compliance costs range from $150K-$500K for comprehensive supply chain mapping and risk assessment, varying by company size and supply chain complexity. Small firms with limited suppliers may spend $150K-$200K, while large primes with global supply chains face $400K-$500K investments. Annual ongoing costs average $75K-$150K for continuous monitoring, vendor assessments, and documentation updates. Remediation costs for non-compliance average $300K-$1.2M, including alternative sourcing premiums, legal fees, and potential contract delays. Typical timeline to achieve full compliance spans 6-9 months for initial implementation. Cost drivers include: number of suppliers requiring assessment, geographic distribution of supply chain, existing vendor management systems, and integration complexity with current procurement processes. Companies with mature supplier relationship management systems see 30% lower compliance costs.",
+  "crossReferences": "DFARS 252.239-7018 directly supports CMMC 2.0 requirements under DFARS 252.204-7021, as Level 2 and 3 assessments evaluate supply chain security practices required by this clause. It intersects with DFARS 252.204-7008 (Foreign-Owned Controlled or Influenced reporting) by requiring disclosure of foreign suppliers that could trigger supply chain exclusions. NIST 800-171 control families SC (System and Communications Protection) and RA (Risk Assessment) provide the technical foundation for supply chain risk assessments mandated by this clause. The clause complements DFARS 252.204-7012 (Safeguarding requirements) by extending cybersecurity protections throughout the supply chain ecosystem. Integration with DFARS 252.225-7036 (Buy American requirements) creates overlapping compliance obligations where domestic sourcing preferences align with supply chain risk mitigation. Proper implementation requires coordination across all these regulatory frameworks to ensure comprehensive supply chain security posture.",
+  "procurementGuidance": "DFARS 252.239-7018 appears in all DoD IT solicitations exceeding the SAT, particularly those involving network infrastructure, cloud services, or cybersecurity solutions. During source selection, contracting officers evaluate suppliers' supply chain risk management capabilities as a responsibility determination factor. Offerors should prepare comprehensive supply chain security plans demonstrating: supplier vetting procedures, alternative sourcing strategies, and continuous monitoring capabilities. Include supplier risk matrices showing geographic distribution, ownership structures, and cybersecurity certifications. Address potential supply chain vulnerabilities proactively in technical proposals, demonstrating understanding of DoD's Trusted Supplier requirements. Proposal teams must coordinate with legal counsel to ensure accurate representations regarding foreign suppliers, as post-award discoveries of undisclosed supply chain risks can trigger False Claims Act investigations. Budget 3-5% additional program costs for supply chain compliance activities and alternative sourcing premiums when preparing competitive pricing.",
+  "complianceChecklist": [
+    "Contracts manager must map complete supply chain to fourth-tier subcontractors, documenting country of origin, ownership structure, and cybersecurity posture for all IT components using standardized risk assessment templates.",
+    "Procurement team establishes pre-qualified alternative suppliers for each critical component category, maintaining signed teaming agreements or master service agreements with at least two DoD-approved vendors.",
+    "ISSO implements continuous monitoring of DoD's Trusted Supplier Database and exclusion lists through automated alerts, checking suppliers monthly against OFAC, Entity List, and DoD supply chain risk databases.",
+    "Legal counsel develops supply chain notification procedures ensuring 72-hour government notification of any supplier changes, ownership transfers, or cybersecurity incidents affecting the supply chain.",
+    "Program managers establish supply chain security requirements in all subcontractor agreements, including mandatory disclosure of foreign ownership, manufacturing locations, and cybersecurity frameworks compliance.",
+    "Quality assurance team implements quarterly supply chain risk assessments using NIST 800-161 guidelines, documenting findings in formal risk registers maintained for government inspection.",
+    "Contracts administrator maintains current supplier cybersecurity certifications, including CMMC assessments, ISO 27001 certifications, and FedRAMP authorizations in centralized supplier database.",
+    "Security team coordinates with DCMA and DLA personnel during supply chain reviews, providing requested documentation within 48 hours and maintaining read-access to supplier risk assessments."
+  ]
+}

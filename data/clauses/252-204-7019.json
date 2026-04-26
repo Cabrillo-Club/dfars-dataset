@@ -1,0 +1,53 @@
+{
+  "clause": "252.204-7019",
+  "slug": "252-204-7019",
+  "title": "Notice of NIST SP 800-171 DoD Assessment Requirements",
+  "category": "cybersecurity",
+  "description": "This clause requires contractors to have a current NIST SP 800-171 assessment on record in the Supplier Performance Risk System (SPRS) before contract award. The assessment uses a 110-point scoring methodology and results must be posted to SPRS and kept current.",
+  "applicability": "Solicitations and contracts that include DFARS 252.204-7012 and require a current NIST 800-171 assessment score in SPRS.",
+  "keyRequirements": [
+    "Post assessment score to SPRS before contract award",
+    "Maintain current assessment (updated within 3 years)",
+    "Allow DoD to conduct higher-level assessments if required",
+    "Scores range from -203 to 110 based on gap analysis"
+  ],
+  "flowdown": true,
+  "relatedNist": [
+    "ca-3-12-1",
+    "ca-3-12-2",
+    "ca-3-12-3"
+  ],
+  "relatedHubs": [
+    "cmmc"
+  ],
+  "searchTier": "high",
+  "faq": [
+    {
+      "question": "What is DFARS 252.204-7019?",
+      "answer": "DFARS 252.204-7019 (Notice of NIST SP 800-171 DoD Assessment Requirements) This clause requires contractors to have a current NIST SP 800-171 assessment on record in the Supplier Performance Risk System (SPRS) before contract award. The assessment uses a 110-point scoring me"
+    },
+    {
+      "question": "Does DFARS 252.204-7019 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.204-7019 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.204-7019 apply?",
+      "answer": "Solicitations and contracts that include DFARS 252.204-7012 and require a current NIST 800-171 assessment score in SPRS."
+    }
+  ],
+  "practicalExample": "TechDefense Solutions, a mid-size IT services contractor with $45M in annual DoD revenue, submitted a proposal for a $12M Air Force cybersecurity modernization contract in January 2025. During proposal evaluation, the contracting officer discovered TechDefense had no SPRS assessment score posted, despite the solicitation clearly requiring DFARS 252.204-7019 compliance. The company was immediately deemed non-responsive and eliminated from competition. TechDefense lost the contract opportunity and faced a 6-month delay entering SPRS while conducting their initial assessment through a certified C3PAO, costing $185,000 in assessment fees plus $90,000 in lost opportunity costs. They also discovered three subcontractors on their team lacked SPRS scores, requiring additional assessments totaling $75,000. The lesson: SPRS score posting is now a mandatory gate for contract award, not a post-award requirement. TechDefense now maintains a quarterly SPRS compliance dashboard and requires subcontractors to provide current SPRS scores during teaming discussions.",
+  "whyItMatters": "DFARS 252.204-7019 creates a hard stop in the procurement process—no SPRS score means automatic proposal rejection, regardless of technical merit or price competitiveness. This affects all contractors handling CUI in DoD contracts, with flow-down requirements hitting subcontractors at every tier. Worst-case consequences include contract termination under FAR 49.402-3 for material breach, False Claims Act liability for certifying compliance without proper assessment, and potential suspension under FAR 9.407-1 for inadequate cybersecurity controls. The clause directly feeds into CMMC 2.0 implementation, where SPRS scores inform DoD's risk-based assessment approach. The 2026 regulatory trend toward automated compliance verification means SPRS integration with other DoD systems will flag non-compliant contractors in real-time, making manual workarounds impossible and elevating this from administrative requirement to business-critical capability.",
+  "complianceCost": "Initial compliance costs range from $65,000-$350,000 depending on organization size and existing security posture. Small contractors ($5M-$25M revenue) typically spend $65,000-$120,000 for C3PAO assessment plus gap remediation. Mid-size contractors ($25M-$100M) average $150,000-$250,000, while large contractors exceed $300,000 due to complex environments. Annual maintenance costs run $35,000-$85,000 for ongoing monitoring, quarterly SPRS updates, and triennial reassessment preparation. Non-compliance remediation averages 40-60% additional cost over initial implementation. Timeline to achieve compliance spans 6-12 months from gap analysis through SPRS score posting. Cost drivers include current security maturity, number of CUI systems, geographic distribution of facilities, and existing NIST 800-171 implementation gaps requiring immediate remediation before assessment.",
+  "crossReferences": "DFARS 252.204-7019 builds directly on the security requirements established in 252.204-7012 (Safeguarding Covered Defense Information), requiring contractors to demonstrate compliance through formal assessment rather than self-attestation. The clause serves as the measurement mechanism for NIST 800-171 control families AC (Access Control), AU (Audit), AT (Awareness Training), CM (Configuration Management), IA (Identification and Authentication), IR (Incident Response), MA (Maintenance), MP (Media Protection), PE (Physical Protection), PS (Personnel Security), RA (Risk Assessment), SA (System and Services Acquisition), SC (System and Communications Protection), and SI (System and Information Integrity). This assessment foundation directly enables 252.204-7021 (CMMC Requirements), where SPRS scores inform CMMC Level 2 self-assessments and provide DoD with risk-based data for determining when Level 3 certifications are required.",
+  "procurementGuidance": "DFARS 252.204-7019 appears in all solicitations requiring NIST 800-171 compliance and creates a mandatory pre-award gate that cannot be waived. Contracting officers verify SPRS scores during responsibility determination under FAR 9.104-1, making this an absolute requirement for contract award. Source selection evaluation focuses on score currency (within 3 years) and completeness rather than actual score value, though scores below -70 typically trigger enhanced due diligence. Proposal preparation must include SPRS score verification as part of representations and certifications, with supporting documentation readily available for contracting officer review. Address this requirement in your proposal's compliance matrix with specific SPRS score, assessment date, and C3PAO certification details. For competitive solicitations, confirm all team members' SPRS compliance before proposal submission, as post-award discovery of non-compliant subcontractors can trigger contract termination proceedings.",
+  "complianceChecklist": [
+    "ISSO conducts initial NIST 800-171 gap analysis using official DoD assessment methodology to identify all 110 control implementation gaps and scoring impacts.",
+    "Contracts team verifies all subcontractors handling CUI have current SPRS scores posted and flows down 252.204-7019 requirements in all relevant subcontracts.",
+    "Legal counsel reviews C3PAO selection criteria and engagement terms to ensure assessment scope covers all CUI-handling systems and meets DoD recognition standards.",
+    "ISSO uploads current System Security Plan (SSP) and Plan of Action & Milestones (POA&M) to SPRS portal within 30 days of assessment completion.",
+    "Program Manager establishes quarterly SPRS score monitoring process and assigns responsibility for maintaining current assessment status within 3-year window.",
+    "Contracts team integrates SPRS score verification into proposal preparation checklist and confirms scores are current before bid submission.",
+    "ISSO coordinates with C3PAO to schedule triennial reassessment 6 months before current assessment expires to prevent SPRS scoring gaps.",
+    "Legal counsel documents assessment results retention procedures and establishes process for DoD higher-level assessment coordination when requested."
+  ]
+}

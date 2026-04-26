@@ -1,0 +1,59 @@
+{
+  "clause": "252.204-7012",
+  "slug": "252-204-7012",
+  "title": "Safeguarding Covered Defense Information and Cyber Incident Reporting",
+  "category": "cybersecurity",
+  "description": "The most important cybersecurity clause in defense contracting. DFARS 252.204-7012 requires contractors to implement all 110 NIST SP 800-171 security controls to protect Covered Defense Information (CDI) and report cyber incidents to the DoD Cyber Crime Center (DC3) within 72 hours. This clause is the foundation for CMMC and applies to virtually all DoD contracts involving CUI.",
+  "applicability": "All DoD contracts where the contractor will process, store, or transmit Covered Defense Information (CDI) or operationally critical support information.",
+  "keyRequirements": [
+    "Implement all 110 NIST SP 800-171 Rev 2 security controls",
+    "Report cyber incidents to DC3 within 72 hours of discovery",
+    "Preserve and protect forensic evidence for at least 90 days",
+    "Provide medium assurance certificates for incident reporting",
+    "Include CDI marking and handling procedures"
+  ],
+  "flowdown": true,
+  "relatedNist": [
+    "ac-3-1-1",
+    "ac-3-1-3",
+    "ir-3-6-1",
+    "ir-3-6-2",
+    "sc-3-13-8",
+    "sc-3-13-11"
+  ],
+  "relatedHubs": [
+    "cmmc",
+    "cui-crm",
+    "operations"
+  ],
+  "searchTier": "high",
+  "faq": [
+    {
+      "question": "What is DFARS 252.204-7012?",
+      "answer": "DFARS 252.204-7012 (Safeguarding Covered Defense Information and Cyber Incident Reporting) The most important cybersecurity clause in defense contracting. DFARS 252.204-7012 requires contractors to implement all 110 NIST SP 800-171 security controls to protect Covered Defense Information (C"
+    },
+    {
+      "question": "Does DFARS 252.204-7012 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.204-7012 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.204-7012 apply?",
+      "answer": "All DoD contracts where the contractor will process, store, or transmit Covered Defense Information (CDI) or operationally critical support information."
+    }
+  ],
+  "practicalExample": "TechDefense Solutions, a 350-employee cybersecurity contractor, discovered in March 2024 that their SharePoint environment containing Navy logistics CDI had been accessed by an unauthorized external party through compromised VPN credentials. The CISO discovered the breach during routine log analysis but delayed reporting for 96 hours while conducting internal forensics. DoD imposed a $2.3M contract cure notice requiring immediate NIST 800-171 remediation across all systems, plus $180K in third-party incident response costs. The 72-hour reporting violation triggered a DCMA compliance review that suspended $12M in pending task orders for six months. TechDefense ultimately spent $890K implementing proper access controls, multi-factor authentication, and continuous monitoring to regain compliance. The lesson: immediate DC3 reporting within 72 hours is non-negotiable—internal forensics can occur parallel to official notification, and delays compound both financial and reputational damage exponentially.",
+  "whyItMatters": "DFARS 252.204-7012 triggers whenever contractors handle Controlled Unclassified Information (CUI) marked as CDI, affecting 90% of defense contractors from primes to Tier 3 subcontractors. Non-compliance risks immediate contract termination under FAR 52.249-2, False Claims Act liability up to $2.3M per violation, and three-year debarment proceedings. This clause directly feeds CMMC 2.0 Level 2 requirements—contractors must demonstrate 252.204-7012 compliance to achieve CMMC certification by October 2025. The 2026 regulatory trend intensifying enforcement is DoD's new automated compliance monitoring through Enterprise Infrastructure Solutions, which will flag NIST 800-171 gaps in real-time and trigger immediate corrective action requests, making reactive compliance strategies obsolete.",
+  "complianceCost": "Initial compliance ranges from $180K-$450K for mid-size contractors, depending on existing cybersecurity maturity and system complexity. Companies with minimal security infrastructure face costs at the high end, while those with existing SOC 2 compliance typically spend $220K-$280K. Annual maintenance costs average $120K-$180K including continuous monitoring tools, annual penetration testing, and dedicated ISSO resources. Non-compliance remediation costs escalate to $650K-$1.2M when including third-party assessments, accelerated implementation timelines, and potential contract cure requirements. Typical compliance timeline spans 12-18 months for full NIST 800-171 implementation, though DoD may grant 6-month interim authority to operate with approved POA&Ms for low-risk deficiencies.",
+  "crossReferences": "DFARS 252.204-7012 serves as the cybersecurity foundation that enables compliance with related clauses including 252.204-7021 (CMMC requirements) and 252.204-7019 (SPRS reporting). The 110 NIST SP 800-171 controls directly map to CMMC Level 2 practices, meaning full 252.204-7012 compliance satisfies most CMMC certification requirements. This clause also interconnects with 252.204-7008 (CAGE code updates) for contractor identification and 252.225-7012 (preference for certain domestic sources) when cybersecurity supply chain considerations apply. The incident reporting requirements feed into 252.204-7009 (limitations on contracting) enforcement decisions, where cyber incidents can trigger enhanced due diligence reviews for future contract awards.",
+  "procurementGuidance": "DFARS 252.204-7012 appears in Section I of all solicitations involving CUI/CDI and requires specific proposal response addressing current NIST 800-171 compliance status. Include your SPRS assessment date, score, and POA&M summary in technical proposals. Source selection teams evaluate cybersecurity maturity as a responsibility determination factor—scores below 80 typically trigger pre-award security plan reviews. Prepare documentation including current SSP, recent penetration test results, and incident response procedures for potential requests during competitive negotiations. Address subcontractor cybersecurity management in your proposal, demonstrating flowdown compliance verification procedures. Consider cybersecurity staffing costs in your price proposal, as inadequate security resources often lead to post-award compliance challenges requiring expensive remediation efforts.",
+  "complianceChecklist": [
+    "ISSO conducts complete NIST SP 800-171 gap analysis and documents findings in formal System Security Plan (SSP) within 90 days of contract award.",
+    "Contracts team verifies CDI identification and marking procedures align with DoD Manual 5200.01 Volume 4 and trains all personnel handling marked information.",
+    "IT security implements all 110 NIST 800-171 Rev 2 security controls or documents exceptions in Plan of Action and Milestones (POA&M) with risk acceptance.",
+    "Legal counsel establishes cyber incident response procedures including DC3 reporting workflow and 72-hour notification timeline through DIBNet portal.",
+    "ISSO configures continuous monitoring tools and establishes forensic evidence preservation procedures for minimum 90-day retention requirement.",
+    "Contracts administrator ensures SPRS scores reflect current compliance status and updates monthly through SAM.gov portal.",
+    "Security team conducts annual NIST 800-171 assessments and maintains medium assurance certificates for incident reporting authentication.",
+    "Procurement officer validates subcontractor flowdown requirements include complete 252.204-7012 implementation and reporting obligations."
+  ]
+}

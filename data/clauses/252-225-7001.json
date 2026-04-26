@@ -1,0 +1,51 @@
+{
+  "clause": "252.225-7001",
+  "slug": "252-225-7001",
+  "title": "Buy American and Balance of Payments Program",
+  "category": "supply-chain",
+  "description": "This clause implements the Buy American Act for DoD contracts, requiring the use of domestic end products and components unless a qualifying country exception applies. Contractors must certify that end products are domestic (manufactured in the U.S. with more than 55% domestic component cost) or from a qualifying country.",
+  "applicability": "DoD supply contracts for end products, including manufactured items, raw materials, and assemblies.",
+  "keyRequirements": [
+    "Use domestic end products meeting the component test",
+    "Domestic component cost must exceed 55% of total component cost",
+    "Qualifying country products treated as domestic",
+    "Price evaluation preference for domestic products",
+    "COTS exceptions may apply"
+  ],
+  "flowdown": true,
+  "relatedNist": [],
+  "relatedHubs": [
+    "operations",
+    "winning"
+  ],
+  "searchTier": "medium",
+  "faq": [
+    {
+      "question": "What is DFARS 252.225-7001?",
+      "answer": "DFARS 252.225-7001 (Buy American and Balance of Payments Program) This clause implements the Buy American Act for DoD contracts, requiring the use of domestic end products and components unless a qualifying country exception applies. Contractors must certify that en"
+    },
+    {
+      "question": "Does DFARS 252.225-7001 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.225-7001 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.225-7001 apply?",
+      "answer": "DoD supply contracts for end products, including manufactured items, raw materials, and assemblies."
+    }
+  ],
+  "practicalExample": "A mid-size electronics manufacturer won a $3.2M Navy contract for radar assemblies. During contract performance, the contractor sourced critical semiconductor components from South Korea (not a qualifying country) representing 48% of total component cost. The remaining 52% domestic components failed to meet the >55% threshold required by DFARS 252.225-7001. The DCMA discovered this during a routine compliance audit 8 months into the 18-month contract. The contractor faced a potential $960,000 penalty (30% of contract value) and was required to re-source components domestically at an additional cost of $240,000, extending delivery by 4 months. The Navy accepted the delay but applied liquidated damages of $15,000 per month. Total financial impact exceeded $300,000. The contractor learned to conduct component cost analysis during proposal preparation and established pre-approved supplier lists with domestic content verification.",
+  "whyItMatters": "DFARS 252.225-7001 enforces supply chain security by prioritizing domestic manufacturing, affecting all contractors in DoD supply chains. Non-compliance triggers False Claims Act liability, contract termination, and potential debarment. This clause flows down to subcontractors, making prime contractors liable for their subs' compliance failures. With CMMC 2.0's emphasis on supply chain risk management, contractors must demonstrate end-to-end visibility of component sourcing. The FY2024 NDAA expanded domestic content requirements and reduced qualifying country exceptions, making compliance more stringent in 2026. Recent enforcement actions show DoD prioritizing Buy American violations, with average penalties reaching $2.3M per case in 2024.",
+  "complianceCost": "Initial compliance costs range from $25,000-$150,000, including supply chain mapping software ($8,000-$15,000), legal review of supplier agreements ($15,000-$35,000), and staff training ($5,000-$12,000). Annual ongoing costs average $45,000-$85,000 for supplier audits, documentation updates, and compliance monitoring. Non-compliance remediation costs $200,000-$500,000, including re-sourcing penalties, contract modifications, and legal fees. Small manufacturers achieve compliance in 4-6 months, while large contractors with complex supply chains require 8-12 months. Costs vary significantly based on existing supplier diversity, contract volume, and current documentation maturity.",
+  "crossReferences": "DFARS 252.225-7001 interconnects with 252.225-7012 (Defense Trade Cooperation Treaties) for qualifying country determinations and 252.225-7036 (Buy American—Free Trade Agreements) for trade agreement exceptions. This clause supports NIST 800-171 control family SR (Supply Chain Risk Management) by establishing domestic sourcing preferences that reduce foreign dependency risks. Under CMMC 2.0 Level 2, contractors must demonstrate supply chain risk assessment capabilities that complement Buy American compliance. The clause also connects to 252.204-7012 (Safeguarding Covered Defense Information) as domestic suppliers typically have lower cybersecurity risks than foreign sources, creating synergies between supply chain security and information protection requirements.",
+  "procurementGuidance": "DFARS 252.225-7001 appears in all DoD solicitations for end products exceeding the micro-purchase threshold ($10,000 in FY2025). During source selection, contracting officers apply price evaluation preferences giving domestic products a 6-12% advantage over foreign alternatives. Prepare detailed component cost breakdowns showing domestic content calculations, supplier certifications, and qualifying country documentation. Include Buy American compliance costs in your price proposal and identify any required exceptions early in the proposal process. For competitive awards, highlight domestic content percentages above the minimum 55% threshold as a competitive advantage. Maintain pre-award supplier surveys documenting domestic capabilities and establish alternative domestic sources to mitigate supply chain risks during contract performance.",
+  "complianceChecklist": [
+    "Contracts team must identify all contracts subject to DFARS 252.225-7001 and document domestic content requirements in the compliance matrix.",
+    "Procurement officer must establish supplier certification processes requiring domestic content documentation and qualifying country verification.",
+    "Supply chain manager must conduct component cost analysis for all end products, calculating domestic content percentage using DoD's prescribed methodology.",
+    "Legal counsel must review and update subcontractor flow-down clauses to include Buy American requirements and certification obligations.",
+    "Quality assurance team must implement supplier audit procedures to verify domestic content claims and maintain supporting documentation.",
+    "Program manager must establish cost tracking systems to monitor domestic vs. foreign component costs throughout contract performance.",
+    "Compliance officer must prepare quarterly domestic content reports for DCMA review and maintain audit-ready documentation files.",
+    "Finance team must implement cost accounting procedures to segregate domestic and foreign component costs in accordance with FAR 31.205-1."
+  ]
+}

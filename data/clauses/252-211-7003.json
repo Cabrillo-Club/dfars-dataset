@@ -1,0 +1,49 @@
+{
+  "clause": "252.211-7003",
+  "slug": "252-211-7003",
+  "title": "Item Unique Identification and Valuation",
+  "category": "supply-chain",
+  "description": "This clause requires unique identification (IUID) marking on delivered items valued over $5,000 or items determined to be mission-essential regardless of value. The unique identifier enables lifecycle tracking of defense articles through the IUID Registry.",
+  "applicability": "DoD contracts for delivery of items valued over $5,000 or mission-essential items, excluding commercial items with existing unique identification.",
+  "keyRequirements": [
+    "Apply IUID marks to qualifying items (MIL-STD-130)",
+    "Register items in the IUID Registry",
+    "Unique item identifier using Data Matrix symbol",
+    "Report item data to the Wide Area WorkFlow system"
+  ],
+  "flowdown": true,
+  "relatedNist": [],
+  "relatedHubs": [
+    "operations"
+  ],
+  "searchTier": "low",
+  "faq": [
+    {
+      "question": "What is DFARS 252.211-7003?",
+      "answer": "DFARS 252.211-7003 (Item Unique Identification and Valuation) This clause requires unique identification (IUID) marking on delivered items valued over $5,000 or items determined to be mission-essential regardless of value. The unique identifier enables lifecycle"
+    },
+    {
+      "question": "Does DFARS 252.211-7003 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.211-7003 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.211-7003 apply?",
+      "answer": "DoD contracts for delivery of items valued over $5,000 or mission-essential items, excluding commercial items with existing unique identification."
+    }
+  ],
+  "practicalExample": "Northrop Defense Systems, a mid-size electronics manufacturer, won a $12M radar component contract with the Air Force. Three months into production, their quality team discovered they had failed to apply proper IUID marking to 47 circuit board assemblies valued at $8,200 each—totaling $385,400 in affected items. The Data Matrix symbols were incorrectly formatted per MIL-STD-130N requirements, and none had been registered in the IUID Registry. The contracting officer issued a cure notice with 30 days to remediate. Northrop had to halt delivery, re-mark all 47 assemblies at $450 per unit ($21,150), expedite registry submissions through WAWF, and absorb a 3-week delivery delay costing $95,000 in liquidated damages. The lesson: their contracts team had properly identified the clause applicability, but failed to train production staff on the specific MIL-STD-130N marking requirements. They immediately implemented a pre-delivery IUID verification checkpoint and trained all production supervisors on Data Matrix symbol standards, preventing future non-compliance on their remaining $8M in deliveries.",
+  "whyItMatters": "DFARS 252.211-7003 triggers automatically when delivering items over $5,000 or any mission-essential items regardless of value, affecting both primes and subcontractors in the supply chain. Non-compliance creates immediate delivery rejection risk, potential False Claims Act exposure for accepting payment on unmarked items, and possible contract termination for material breach. The DoD's Asset Visibility initiative makes IUID compliance increasingly critical for future contract opportunities. With CMMC 2.0 emphasizing supply chain transparency, proper asset identification supports cybersecurity requirements by enabling incident response and asset tracking. The 2026 regulatory trend toward digital logistics transformation means IUID data increasingly feeds automated DoD systems—contractors with poor IUID hygiene face systematic exclusion from streamlined procurement processes, creating competitive disadvantage beyond immediate contract compliance issues.",
+  "complianceCost": "Initial compliance costs range from $15,000-$75,000 depending on production volume and existing marking capabilities. Small manufacturers typically spend $15,000-$25,000 for basic Data Matrix marking equipment and MIL-STD-130N training. Large contractors may invest $50,000-$75,000 for automated marking systems and registry integration. Ongoing annual costs average $5,000-$15,000 for registry maintenance, marking supplies, and staff training updates. Non-compliance remediation costs $200-$500 per affected item for re-marking, plus delivery delays and potential liquidated damages. Typical compliance timeline spans 3-6 months from contract award to full implementation. Cost drivers include production volume, item complexity, existing quality systems maturity, and integration requirements with enterprise resource planning systems for automated WAWF reporting.",
+  "crossReferences": "DFARS 252.211-7003 operates independently but connects to broader supply chain security requirements. While not directly tied to NIST 800-171 controls, proper IUID implementation supports CM-8 (Information System Component Inventory) by enabling accurate asset tracking. The clause flows down to subcontractors alongside 252.204-7012 (Safeguarding Requirements), creating layered supply chain oversight. IUID data increasingly feeds into CMMC assessments as evidence of supply chain visibility, particularly for Level 2 and 3 requirements. The registry requirements complement 252.204-7019 (SPRS reporting) by establishing the asset baseline necessary for cybersecurity posture verification. Integration with 252.204-7021 (CMMC) occurs through enhanced supply chain transparency expectations, where IUID compliance demonstrates contractor commitment to DoD digital transformation initiatives.",
+  "procurementGuidance": "DFARS 252.211-7003 appears in solicitations when the government anticipates deliveries exceeding $5,000 or involving mission-essential items. Source selection evaluation rarely includes IUID capability as a scored factor, but contracting officers verify contractor understanding during proposal review. Prepare technical proposals demonstrating existing IUID marking capabilities, MIL-STD-130N compliance procedures, and WAWF integration plans. Address IUID costs in your pricing strategy—marking equipment, training, and registry maintenance represent legitimate contract costs. For subcontractor management plans, explicitly describe IUID flowdown procedures and oversight mechanisms. During negotiations, clarify item valuation methodology and mission-essential determinations to prevent post-award disputes. Maintain IUID marking capability as a competitive differentiator, particularly for follow-on opportunities where past performance includes demonstrated registry compliance and delivery acceptance without IUID-related issues.",
+  "complianceChecklist": [
+    "Contracts team reviews all solicitations over $5,000 for IUID requirements and identifies mission-essential items regardless of value during proposal preparation.",
+    "Quality assurance manager implements MIL-STD-130N marking procedures and procures compliant Data Matrix marking equipment within 60 days of contract award.",
+    "Production supervisor trains marking technicians on Data Matrix symbol standards and establishes pre-delivery IUID verification checkpoints.",
+    "IT administrator configures WAWF system access and establishes automated item registration workflows for qualifying deliveries.",
+    "Program manager develops item valuation methodology aligned with contract terms and maintains documentation supporting IUID applicability decisions.",
+    "Compliance officer conducts quarterly IUID Registry audits to verify all delivered items appear with correct data and resolves discrepancies within 10 business days.",
+    "Subcontract administrator flows down IUID requirements to applicable subcontractors and monitors their compliance through delivery acceptance procedures.",
+    "Finance team reconciles IUID-marked deliveries against invoicing to prevent payment requests for non-compliant items."
+  ]
+}

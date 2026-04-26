@@ -1,0 +1,54 @@
+{
+  "clause": "252.204-7020",
+  "slug": "252-204-7020",
+  "title": "NIST SP 800-171 DoD Assessment Requirements",
+  "category": "cybersecurity",
+  "description": "This clause establishes the three-tier assessment methodology for NIST SP 800-171 compliance: Basic (self-assessment), Medium (government-conducted), and High (government-conducted with on-site validation). Contractors must cooperate with government assessors and provide documentation demonstrating implementation of security controls.",
+  "applicability": "Contracts where the government requires a Medium or High confidence NIST 800-171 assessment, typically for contracts involving high-value CUI.",
+  "keyRequirements": [
+    "Cooperate with government assessment teams",
+    "Provide documentation of NIST 800-171 implementation",
+    "Allow assessors access to systems and facilities",
+    "Implement the 110-point scoring methodology",
+    "Address findings within the specified remediation timeline"
+  ],
+  "flowdown": true,
+  "relatedNist": [
+    "ca-3-12-1",
+    "ca-3-12-2",
+    "ca-3-12-4"
+  ],
+  "relatedHubs": [
+    "cmmc"
+  ],
+  "searchTier": "high",
+  "faq": [
+    {
+      "question": "What is DFARS 252.204-7020?",
+      "answer": "DFARS 252.204-7020 (NIST SP 800-171 DoD Assessment Requirements) This clause establishes the three-tier assessment methodology for NIST SP 800-171 compliance: Basic (self-assessment), Medium (government-conducted), and High (government-conducted with on-site valida"
+    },
+    {
+      "question": "Does DFARS 252.204-7020 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.204-7020 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.204-7020 apply?",
+      "answer": "Contracts where the government requires a Medium or High confidence NIST 800-171 assessment, typically for contracts involving high-value CUI."
+    }
+  ],
+  "practicalExample": "TechSecure Solutions, a mid-size cybersecurity firm with $45M in annual revenue, was awarded a $12M Air Force contract for cloud infrastructure services containing high-value CUI. The contract included DFARS 252.204-7020 requiring a Medium confidence assessment. Six months post-award, DoD assessment teams arrived for a two-week on-site evaluation. TechSecure's ISSO had prepared documentation for all 110 NIST 800-171 controls but discovered during the assessment that their incident response procedures lacked required forensic capabilities (IR-4) and their system boundaries weren't properly documented (CA-3). The government assessors identified 15 deficiencies with a 90-day remediation timeline. TechSecure spent $280,000 on emergency consulting and technology upgrades to address findings, plus $120,000 in opportunity cost from diverted engineering resources. They successfully closed all findings within deadline, avoiding contract termination. Lesson learned: proactive third-party assessments cost $75,000 but would have saved $325,000 in emergency remediation and prevented the reputational risk of failing a government assessment.",
+  "whyItMatters": "This clause fundamentally shifts cybersecurity assessment from contractor self-certification to government validation, creating binding compliance obligations with severe consequences. It affects both primes and subcontractors on high-value CUI contracts, typically those exceeding $7.5M or involving critical defense systems. Failed assessments can trigger immediate contract suspension, cure notices, and potential False Claims Act liability if contractors previously certified NIST 800-171 compliance without proper implementation. The clause directly feeds into CMMC 2.0 Level 2 requirements, where government assessments may satisfy CMMC validation requirements. By 2026, DoD plans to conduct 2,500+ Medium/High assessments annually, making this clause a primary enforcement mechanism. Contractors who fail assessments face 12-24 month remediation periods, effectively excluding them from new contract competitions during that window.",
+  "complianceCost": "Initial compliance preparation ranges from $150,000-$750,000 depending on existing security posture and organization size. Small contractors (under $50M revenue) typically spend $200,000-$350,000, while large contractors may invest $500,000-$1.2M in assessment readiness. Ongoing annual maintenance costs $75,000-$200,000 for continuous monitoring and documentation updates. Remediation costs for failed assessments average $300,000-$800,000 plus 6-12 month timeline delays. Assessment preparation typically requires 9-15 months from contract award to government assessment. Cost drivers include: current NIST 800-171 maturity level, number of systems in scope, geographic distribution of facilities, existing security tool integration, and availability of qualified cybersecurity staff. Organizations with existing CMMC Level 2 preparation reduce costs by 40-60%.",
+  "crossReferences": "This clause builds upon DFARS 252.204-7012 (Safeguarding CUI) basic requirements and directly enables 252.204-7021 (CMMC) validation processes. The government assessment methodology satisfies CMMC Level 2 assessment requirements, creating compliance synergy between clauses. Results feed into 252.204-7019 (SPRS reporting) requirements, where assessment scores must be accurately reported within 30 days. The clause maps to NIST 800-171 control families AC (Access Control), AU (Audit), CA (Assessment), CM (Configuration Management), and IR (Incident Response), with particular emphasis on CA-2 and CA-7 continuous monitoring requirements. Assessment findings directly impact 252.204-7018 (Incident Reporting) obligations, as identified vulnerabilities may trigger immediate reporting requirements to DoD Cyber Crime Center.",
+  "procurementGuidance": "This clause appears in solicitations for contracts exceeding $7.5M involving CUI or when contracting officers determine Medium/High confidence assessments are necessary based on contract sensitivity. During source selection, offerors must demonstrate assessment readiness through detailed cybersecurity implementation narratives, not just compliance certifications. Prepare comprehensive cybersecurity volume including: current NIST 800-171 maturity assessment, remediation timeline for any gaps, organizational cybersecurity management structure, and previous government assessment experience. Address assessment cooperation explicitly in your proposal, including facility access procedures, key personnel availability, and documentation management processes. Competitive advantage comes from demonstrating proactive assessment readiness rather than basic compliance claims. Consider partnering with experienced assessment preparation consultants and highlight any existing CMMC Level 2 certifications as evidence of assessment maturity.",
+  "complianceChecklist": [
+    "ISSO must complete comprehensive gap analysis against all 110 NIST 800-171 controls using DoD Assessment Methodology scoring criteria within 60 days of contract award.",
+    "Security team shall develop detailed System Security Plan (SSP) documenting system boundaries, data flows, and control implementation evidence with supporting artifacts.",
+    "Contracts department must coordinate with government assessment teams to establish assessment timeline, scope, and facility access requirements through contracting officer.",
+    "ISSO shall implement continuous monitoring program with automated vulnerability scanning, configuration management, and incident logging to demonstrate ongoing compliance.",
+    "Legal counsel must review all assessment documentation for privilege concerns and ensure proper handling of proprietary information during government review.",
+    "IT operations team shall prepare sanitized network diagrams, system architecture documentation, and access control matrices for assessor review without exposing classified details.",
+    "Quality assurance lead must conduct internal pre-assessment using DoD methodology and document remediation of identified deficiencies in formal POA&M.",
+    "ISSO shall maintain real-time SPRS reporting accuracy and ensure all assessment results are properly documented in contractor's cybersecurity maturity profile."
+  ]
+}

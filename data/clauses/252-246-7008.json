@@ -1,0 +1,49 @@
+{
+  "clause": "252.246-7008",
+  "slug": "252-246-7008",
+  "title": "Sources of Electronic Parts",
+  "category": "supply-chain",
+  "description": "This clause requires contractors to purchase electronic parts from authorized sources (original manufacturers or authorized distributors). When authorized sources are unavailable, contractors must test and inspect parts to verify authenticity.",
+  "applicability": "DoD contracts delivering electronic parts or assemblies containing electronic parts.",
+  "keyRequirements": [
+    "Purchase from original manufacturers or authorized distributors",
+    "Test and inspect parts from non-authorized sources",
+    "Document source and chain of custody",
+    "Notify contracting officer when authorized sources unavailable"
+  ],
+  "flowdown": true,
+  "relatedNist": [],
+  "relatedHubs": [
+    "operations"
+  ],
+  "searchTier": "low",
+  "faq": [
+    {
+      "question": "What is DFARS 252.246-7008?",
+      "answer": "DFARS 252.246-7008 (Sources of Electronic Parts) This clause requires contractors to purchase electronic parts from authorized sources (original manufacturers or authorized distributors). When authorized sources are unavailable, contractors must tes"
+    },
+    {
+      "question": "Does DFARS 252.246-7008 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.246-7008 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.246-7008 apply?",
+      "answer": "DoD contracts delivering electronic parts or assemblies containing electronic parts."
+    }
+  ],
+  "practicalExample": "A mid-size defense electronics manufacturer, Apex Systems ($45M annual revenue), faced a critical situation during production of radar assemblies for a $12M Navy contract. Their authorized distributor experienced a global shortage of specialized microprocessors, requiring 16-week lead times that would delay delivery by 6 months. The company sourced identical parts from a broker for $180,000, saving $75,000 versus the authorized source. However, DFARS 252.246-7008 required extensive testing protocols including X-ray inspection, electrical parameter testing, and metallurgical analysis, costing an additional $35,000 and 3 weeks. During testing, they discovered 12% counterfeit parts in the broker shipment. The company immediately notified the contracting officer, documented the counterfeit discovery, and re-sourced from an alternate authorized distributor at $255,000. Total compliance cost reached $70,000 including testing and delays, but avoided potential contract termination and $2.4M in False Claims Act penalties. Lesson learned: factor 15-20% additional cost and 3-4 week timeline when using non-authorized sources, and maintain relationships with multiple authorized distributors.",
+  "whyItMatters": "This clause triggers whenever DoD contracts involve electronic parts or systems containing electronic parts, affecting both prime contractors and subcontractors throughout the supply chain. The proliferation of counterfeit electronics poses significant national security risks, with counterfeit parts potentially causing mission failures costing millions. Non-compliance can result in contract termination, suspension from federal contracting, False Claims Act violations carrying treble damages, and criminal prosecution under 18 USC 1341. The clause directly supports CMMC 2.0's supply chain security requirements under SC.L2-3.131 and SC.L2-3.132. With the 2026 implementation of enhanced supply chain risk management requirements and increased DoD focus on trusted suppliers following recent semiconductor vulnerabilities, this clause has become a critical gateway requirement. Companies without robust electronic parts authentication programs face increasing scrutiny and potential exclusion from high-value defense contracts.",
+  "complianceCost": "Initial compliance typically costs $150,000-$400,000 for mid-size contractors, including supplier qualification procedures, testing equipment or third-party testing contracts, documentation systems, and staff training. Annual ongoing costs range from $75,000-$200,000 covering supplier audits, periodic testing, and documentation maintenance. Remediation costs for non-compliance average $500,000-$2.5M including legal fees, testing of suspect inventory, supply chain investigations, and potential contract delays. Achievement timeline spans 6-12 months for companies with existing quality systems, extending to 18-24 months for organizations building capabilities from scratch. Cost variations depend primarily on electronic parts volume, supply chain complexity, existing supplier relationships, and whether companies maintain in-house testing capabilities versus outsourcing to qualified laboratories.",
+  "crossReferences": "DFARS 252.246-7008 interconnects closely with 252.204-7012 (Safeguarding Covered Defense Information) as counterfeit electronics pose cybersecurity risks, and flows into 252.225-7009 (Restriction on Acquisition of Certain Articles Containing Specialty Metals) for materials compliance. The clause supports NIST 800-171 control families SR (Supply Chain Risk Management) and MA (Maintenance), particularly SR-2 and MA-2 requirements for supplier vetting and component authenticity. Under CMMC 2.0, this clause directly enables Level 2 practices SC.2.131 (employ system and communications protection) and SC.2.132 (identify and document supply chain elements). Compliance with 252.246-7008 establishes the foundational supplier trust framework required for advanced cybersecurity clauses like 252.204-7021 (CMMC) and feeds into supply chain risk reporting under 252.204-7019 (SPRS).",
+  "procurementGuidance": "This clause appears in solicitations whenever electronic parts or systems containing electronic parts exceed $150,000, including most weapons systems, communications equipment, and IT hardware contracts. During source selection, government evaluators assess contractors' supplier qualification procedures, testing capabilities, and counterfeit parts prevention programs as technical evaluation factors. Companies should prepare detailed supplier management plans demonstrating relationships with authorized distributors, in-house or contracted testing capabilities, and robust documentation systems. Proposals must address specific risk mitigation strategies for electronic parts shortages and include cost estimates for non-authorized source testing. Strong responses include supplier diversity strategies, testing laboratory certifications (ISO 17025), and past performance examples of successful counterfeit parts prevention. Weak responses focusing only on compliance statements without demonstrating operational capabilities typically receive lower technical scores and reduced win probability.",
+  "complianceChecklist": [
+    "Procurement officers must establish and maintain an Authorized Supplier Database containing only original manufacturers and authorized distributors with current verification documentation.",
+    "Quality engineers must develop written procedures for testing and inspection of electronic parts from non-authorized sources, including visual, electrical, and authentication testing protocols.",
+    "Supply chain managers must implement source verification procedures requiring documentation of complete chain of custody from manufacturer to delivery.",
+    "Contracts personnel must ensure all subcontractor agreements include flowdown of DFARS 252.246-7008 requirements with specific performance metrics and reporting obligations.",
+    "Quality assurance staff must establish sampling plans and testing protocols meeting industry standards (AS6081, AS6171) for suspect counterfeit parts detection.",
+    "Program managers must develop notification procedures to inform contracting officers within 24 hours when authorized sources become unavailable or when counterfeit parts are suspected.",
+    "Document control administrators must maintain traceability records linking each electronic part to its source, test results, and acceptance criteria for minimum 7-year retention.",
+    "Training coordinators must ensure all procurement and receiving personnel complete annual training on counterfeit parts recognition and authorized source requirements."
+  ]
+}

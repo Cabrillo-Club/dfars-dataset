@@ -1,0 +1,51 @@
+{
+  "clause": "252.227-7014",
+  "slug": "252-227-7014",
+  "title": "Rights in Other Than Commercial Computer Software and Other Than Commercial Computer Software Documentation",
+  "category": "intellectual-property",
+  "description": "This clause governs the government's rights in noncommercial computer software and documentation. Similar to 7013 for technical data, it establishes three tiers of rights based on funding source. Contractors retain restricted rights in software developed entirely at private expense, while the government gets unlimited rights in software it funded.",
+  "applicability": "DoD contracts for noncommercial software development or delivery of noncommercial computer software documentation.",
+  "keyRequirements": [
+    "Unlimited rights for government-funded software",
+    "Restricted rights for contractor-funded software",
+    "Government purpose rights for mixed-funded software",
+    "Proper rights legends required on all deliverables",
+    "SBIR data rights protection for applicable contracts"
+  ],
+  "flowdown": true,
+  "relatedNist": [],
+  "relatedHubs": [
+    "operations",
+    "proposal"
+  ],
+  "searchTier": "high",
+  "faq": [
+    {
+      "question": "What is DFARS 252.227-7014?",
+      "answer": "DFARS 252.227-7014 (Rights in Other Than Commercial Computer Software and Other Than Commercial Computer Software Documentation) This clause governs the government's rights in noncommercial computer software and documentation. Similar to 7013 for technical data, it establishes three tiers of rights based on funding source. Cont"
+    },
+    {
+      "question": "Does DFARS 252.227-7014 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.227-7014 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.227-7014 apply?",
+      "answer": "DoD contracts for noncommercial software development or delivery of noncommercial computer software documentation."
+    }
+  ],
+  "practicalExample": "A mid-size defense software contractor, TechForward Solutions, won a $3.2M Navy contract to develop a logistics tracking system. The contractor used $800K of their own IR&D funds to develop core algorithms before the contract award, while the government funded $2.4M for additional development and customization. Under DFARS 252.227-7014, TechForward retained restricted rights to their pre-existing algorithms but had to grant unlimited rights to all government-funded modifications and new modules. During contract execution, the Navy requested source code for the entire system. TechForward improperly claimed restricted rights to government-funded portions, leading to a 6-month contract dispute and $150K in legal fees. The resolution required TechForward to deliver complete source code with proper legends distinguishing restricted vs. unlimited rights portions. Lesson learned: Maintain detailed funding records and apply rights legends during development, not at delivery, to avoid costly disputes over IP ownership.",
+  "whyItMatters": "This clause determines who owns intellectual property in custom software development contracts worth billions annually across DoD. It affects both prime contractors and subcontractors developing noncommercial software, with financial implications extending years beyond contract completion. Misapplication can trigger False Claims Act violations when contractors improperly restrict government access to taxpayer-funded code, potentially resulting in treble damages and debarment. The clause directly impacts CMMC 2.0 compliance by defining what software assets require protection as Controlled Unclassified Information (CUI). With DoD's 2026 Software Modernization Strategy emphasizing modular, reusable code development, proper rights determination becomes critical for future contract opportunities. Contractors who fail to properly segregate and mark IP rights risk losing competitive advantages while facing increased government oversight and reduced negotiating power in future procurements.",
+  "complianceCost": "Initial compliance setup ranges from $25K-$75K for small contractors to $150K-$300K for larger firms, primarily covering legal review, policy development, and staff training. Annual maintenance costs typically run $15K-$50K for ongoing training, IP tracking systems, and compliance monitoring. Remediation costs for non-compliance can exceed $500K when including legal fees, contract disputes, and potential False Claims Act settlements. Full compliance typically requires 3-6 months for initial implementation, with 90-120 days for policy development and staff training. Cost variation depends on existing IP management maturity, contract portfolio complexity, number of development teams requiring training, and integration with existing project management systems. Companies with robust IP tracking systems and established legal processes see significantly lower implementation costs.",
+  "crossReferences": "DFARS 252.227-7014 intersects with 252.204-7012 (Safeguarding Covered Defense Information) when contractor-developed software contains or processes CUI, requiring NIST 800-171 security controls implementation. The clause connects to CMMC Level 2 requirements under 252.204-7021, as software systems handling CUI must demonstrate proper access controls and system boundaries. Rights determinations directly impact 252.225-7048 (Export Control) compliance when software contains controlled technical data requiring export licensing. The clause also relates to 252.227-7013 (Rights in Technical Data) for associated documentation and 252.227-7015 (Technical Data - Commercial Products) when determining commercial vs. noncommercial software classification. Proper implementation supports 252.204-7019 (SPRS reporting) by ensuring software security controls align with rights classifications and data protection requirements.",
+  "procurementGuidance": "This clause appears in solicitations for custom software development, system integration contracts exceeding $250K, and any procurement requiring delivery of noncommercial computer software or documentation. Source selection teams evaluate contractor IP management capabilities and proposed rights structures as part of technical and past performance assessments. Contractors should prepare detailed IP mapping documents showing pre-existing vs. to-be-developed software components, funding source allocations, and proposed rights classifications. Proposals must address how contractor will track funding sources, apply proper legends, and deliver rights-appropriate software packages. Include specific procedures for handling mixed-funded development and demonstrate understanding of government's unlimited rights expectations. Address any plans to incorporate pre-existing restricted rights software and justify government purpose rights claims with supporting funding documentation to strengthen your competitive position.",
+  "complianceChecklist": [
+    "Contracts personnel must identify DFARS 252.227-7014 applicability during proposal review and flag all noncommercial software development requirements.",
+    "Program managers must establish funding source tracking procedures to distinguish government-funded vs. contractor-funded development activities throughout contract performance.",
+    "Legal counsel must review and approve IP rights determinations before any software delivery, ensuring proper classification of unlimited, government purpose, or restricted rights.",
+    "Software development teams must apply appropriate rights legends to all code modules, documentation, and deliverables based on funding source determination.",
+    "Quality assurance personnel must verify rights legends match funding documentation before submitting deliverables through WAWF or contract-specified delivery systems.",
+    "Subcontract administrators must ensure flowdown of rights requirements to all subcontractors performing software development work.",
+    "Intellectual property managers must maintain detailed records linking software components to specific funding sources for future rights determinations.",
+    "Compliance officers must conduct quarterly audits of software delivery packages to verify proper rights marking and documentation accuracy."
+  ]
+}

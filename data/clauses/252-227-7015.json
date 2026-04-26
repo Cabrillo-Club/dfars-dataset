@@ -1,0 +1,49 @@
+{
+  "clause": "252.227-7015",
+  "slug": "252-227-7015",
+  "title": "Technical Data—Commercial Items",
+  "category": "intellectual-property",
+  "description": "This clause provides the government with a license to use technical data for commercial items. The government receives only the rights customarily provided with the commercial item, which is typically a limited license. However, the government has unlimited rights in form, fit, and function data regardless of funding source.",
+  "applicability": "DoD contracts for commercial items where technical data is delivered or required.",
+  "keyRequirements": [
+    "Government receives commercial license rights",
+    "Form, fit, and function data has unlimited rights",
+    "Contractor retains full ownership of IP",
+    "No restriction on government use for maintenance and modification"
+  ],
+  "flowdown": true,
+  "relatedNist": [],
+  "relatedHubs": [
+    "operations"
+  ],
+  "searchTier": "medium",
+  "faq": [
+    {
+      "question": "What is DFARS 252.227-7015?",
+      "answer": "DFARS 252.227-7015 (Technical Data—Commercial Items) This clause provides the government with a license to use technical data for commercial items. The government receives only the rights customarily provided with the commercial item, which is typically"
+    },
+    {
+      "question": "Does DFARS 252.227-7015 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.227-7015 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.227-7015 apply?",
+      "answer": "DoD contracts for commercial items where technical data is delivered or required."
+    }
+  ],
+  "practicalExample": "TechSolutions Inc., a mid-size software integrator, won a $4.2M Navy contract to deliver commercial cybersecurity software with customization services. The contract required technical data deliverables including installation guides, API documentation, and configuration parameters under DFARS 252.227-7015. TechSolutions initially marked all technical data as proprietary, claiming unlimited rights restrictions. During a DCMA review 8 months into performance, the government identified that form, fit, and function data for the custom interface modules fell under unlimited rights regardless of TechSolutions' commercial license terms. The contractor faced a potential $180K withholding on Invoice #6 and 45-day cure notice for improper data rights assertions. Resolution required TechSolutions to release FFI data without restrictions while retaining commercial license rights for the base software. The 3-month remediation effort cost $35K in legal reviews and delayed final delivery by 6 weeks. Lesson learned: Commercial item contractors must clearly distinguish between commercial software rights and government's unlimited rights to form, fit, and function data, especially for customized deliverables.",
+  "whyItMatters": "This clause fundamentally defines the intellectual property boundary between commercial contractors and DoD, affecting $180B+ in annual commercial item acquisitions. It triggers whenever technical data accompanies commercial items, impacting both prime contractors and subcontractors delivering commercial software, hardware, or services. Non-compliance risks include contract disputes, payment withholding, False Claims Act exposure for improper assertions, and potential debarment for willful misrepresentation of data rights. The clause intersects with CMMC 2.0 requirements as contractors must protect their commercial IP while ensuring government receives proper rights to maintain and modify delivered items. With DoD's 2026 emphasis on software-intensive commercial acquisitions and digital engineering transformation, proper data rights management becomes critical as technical data increasingly includes software source code, digital models, and AI training datasets requiring precise rights allocation.",
+  "complianceCost": "Initial compliance setup costs range from $15K-$45K depending on company size and existing IP management systems. Mid-size contractors typically spend $25K-$35K implementing proper data rights identification procedures, contract review processes, and staff training. Annual maintenance costs average $8K-$18K for ongoing contract reviews and marking procedures. Non-compliance remediation costs escalate quickly: legal review and rework averages $20K-$60K per incident, with potential payment withholdings reaching 5-10% of contract value until resolution. Full compliance typically requires 60-90 days for initial implementation and 30-45 days for each new contract evaluation. Cost variations depend primarily on existing contract review sophistication, volume of technical data deliverables, and whether contractors maintain separate commercial and government IP management processes.",
+  "crossReferences": "DFARS 252.227-7015 intersects directly with 252.227-7013 (Rights in Technical Data—Other Than Commercial Items) when contracts include both commercial and non-commercial elements, requiring careful rights segregation. The clause connects to 252.204-7012 (Safeguarding Covered Defense Information) as contractors must protect commercial IP while ensuring government access to authorized technical data. For CMMC compliance under 252.204-7021, commercial contractors must demonstrate information protection capabilities while maintaining proper data rights boundaries. NIST 800-171 control families AC (Access Control) and AU (Audit) support technical data protection requirements. The clause flows into 252.225-7048 (Export Control) when technical data contains controlled technical information, and relates to 252.227-7037 (Validation of Restrictive Markings) for dispute resolution procedures.",
+  "procurementGuidance": "DFARS 252.227-7015 appears in all DoD solicitations requiring commercial item technical data deliverables, typically in Section H or incorporated by reference in base clauses. Source selection evaluators assess contractors' understanding of data rights boundaries and ability to deliver required technical data without improper restrictions. Proposal preparation should include a data rights allocation plan clearly identifying commercial license scope versus government unlimited rights in FFI data. Address potential data rights issues proactively by proposing alternative solutions when commercial license terms conflict with government requirements. Include subcontractor data rights flow-down plans demonstrating compliance throughout the supply chain. Evaluate technical data delivery requirements against existing commercial license terms during bid/no-bid decisions, as conflicts may require costly license modifications or alternative technical approaches.",
+  "complianceChecklist": [
+    "Legal counsel must review all technical data delivery requirements during proposal phase and identify form, fit, and function data elements subject to unlimited government rights.",
+    "Contracts team shall establish data rights assertion procedures that distinguish between commercial license rights and government unlimited rights in FFI data.",
+    "Engineering staff must classify all technical deliverables into commercial IP (limited rights) versus form, fit, function data (unlimited rights) categories before delivery.",
+    "Quality assurance personnel shall verify proper data rights markings on all deliverables using approved legends per DFARS 252.227-7015(b).",
+    "Program managers must maintain data rights allocation matrices for each contract linking deliverable items to applicable rights categories.",
+    "Procurement team shall flow down appropriate data rights requirements to subcontractors and verify sub-tier compliance before acceptance.",
+    "Legal department must establish procedures for challenging government requests that exceed commercial license scope while preserving FFI unlimited rights.",
+    "Administrative staff shall document all data rights assertions in contract files with supporting rationale for DCMA compliance reviews."
+  ]
+}

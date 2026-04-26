@@ -1,0 +1,51 @@
+{
+  "clause": "252.215-7002",
+  "slug": "252-215-7002",
+  "title": "Cost Estimating System Requirements",
+  "category": "general",
+  "description": "This clause requires contractors with large negotiated DoD contracts to maintain a DCMA-approved cost estimating system. The system must produce consistent, verifiable, and accurate cost estimates. Contractors with deficiencies face payment withholds of up to 10% of interim payments.",
+  "applicability": "Negotiated DoD contracts over $50 million where cost or pricing data is required.",
+  "keyRequirements": [
+    "Maintain a DCMA-approved cost estimating system",
+    "System must produce verifiable and accurate estimates",
+    "Correct significant deficiencies within specified timeline",
+    "Payment withholds of up to 10% for unresolved deficiencies",
+    "Provide DCMA access to estimating records and personnel"
+  ],
+  "flowdown": true,
+  "relatedNist": [],
+  "relatedHubs": [
+    "proposal",
+    "operations"
+  ],
+  "searchTier": "medium",
+  "faq": [
+    {
+      "question": "What is DFARS 252.215-7002?",
+      "answer": "DFARS 252.215-7002 (Cost Estimating System Requirements) This clause requires contractors with large negotiated DoD contracts to maintain a DCMA-approved cost estimating system. The system must produce consistent, verifiable, and accurate cost estimates. Co"
+    },
+    {
+      "question": "Does DFARS 252.215-7002 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.215-7002 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.215-7002 apply?",
+      "answer": "Negotiated DoD contracts over $50 million where cost or pricing data is required."
+    }
+  ],
+  "practicalExample": "A mid-size defense contractor, DataSecure Systems ($180M annual revenue), bid on a $75M Navy cybersecurity modernization contract requiring detailed cost estimating for a 5-year performance period. During pre-award DCMA surveillance in March 2025, auditors discovered their cost estimating system lacked proper basis of estimates documentation for indirect rates and failed to maintain historical cost performance metrics. DCMA issued a significant deficiency notice requiring remediation within 45 days. DataSecure faced a potential 10% payment withhold ($7.5M impact on cash flow) and contract award delay. They hired Deltek consultants for $85,000, implemented new cost estimating software ($45,000), and retrained their estimating staff ($25,000). After 38 days, DCMA approved their corrected system. The lesson: robust cost estimating systems require continuous maintenance and documentation—not just software tools. DataSecure now conducts quarterly internal audits and maintains a dedicated cost estimating manager position to prevent future deficiencies.",
+  "whyItMatters": "This clause affects prime contractors and major subcontractors on negotiated DoD contracts exceeding $50M where certified cost or pricing data is required. Non-compliance triggers immediate 10% payment withholds, potentially millions in cash flow disruption. Worst-case scenarios include contract termination for cause, False Claims Act liability if deficient estimates led to overpayments, and DCMA disapproval affecting future contract awards. The clause connects to CMMC 2.0 through data integrity requirements—cost estimating systems must protect and accurately handle controlled technical information. With DoD's 2026 emphasis on data-driven acquisition and the new Adaptive Acquisition Framework requiring more sophisticated cost modeling, contractors with weak estimating systems face increasing scrutiny and competitive disadvantage in source selections.",
+  "complianceCost": "Initial compliance costs range from $150,000-$500,000 for mid-size contractors, including system implementation ($75,000-$200,000), staff training ($25,000-$75,000), and consultant support ($50,000-$225,000). Annual maintenance costs typically run $75,000-$150,000 for dedicated personnel and system updates. Remediation after DCMA deficiency findings averages $100,000-$300,000 plus potential payment withholds. Timeline to achieve compliance spans 6-12 months for new systems, 3-6 months for existing system upgrades. Cost drivers include company size, contract portfolio complexity, existing ERP integration capabilities, and whether contractors use commercial tools like Deltek or custom-built systems requiring more extensive validation.",
+  "crossReferences": "This clause operates alongside DFARS 252.215-7009 (Proposal Adequacy Checklist) which requires detailed cost breakdowns that feed into the cost estimating system. It connects to 252.204-7012 (Safeguarding Controlled Technical Information) through data protection requirements for cost estimating records containing technical specifications. The clause also supports 252.215-7013 (Supplies and Services Provided by Nontraditional Defense Contractors) by ensuring accurate pricing for commercial item determinations. While not directly tied to NIST 800-171 control families, the system integrity requirements align with IA (Identification and Authentication) and SI (System and Information Integrity) controls. Cost estimating system compliance creates the foundation for accurate SPRS submissions under 252.204-7019, as deficient estimating systems often indicate broader business system weaknesses that affect contractor responsibility determinations.",
+  "procurementGuidance": "This clause appears in Section H of solicitations for negotiated contracts over $50M where certified cost or pricing data is required, typically identified during the acquisition planning phase. Source selection teams evaluate cost estimating system adequacy through DCMA surveillance reports and contractor self-assessments submitted with proposals. Contractors should prepare comprehensive system descriptions, flowcharts showing estimating processes, and evidence of DCMA approval or recent surveillance results. Address cost estimating capabilities in technical proposals by demonstrating historical cost performance accuracy, risk management methodologies, and system integration with program management tools. Include cost estimating system compliance status in past performance submissions, as DCMA surveillance findings directly impact contractor responsibility determinations. Proposal teams must coordinate with finance and contracts personnel to ensure cost estimating system capabilities align with contract-specific requirements and deliverable complexity.",
+  "complianceChecklist": [
+    "Contracts personnel must identify all solicitations over $50M requiring certified cost or pricing data and flag for cost estimating system requirements review.",
+    "Finance teams must implement DCMA-compliant cost estimating software capable of producing auditable basis of estimates with supporting documentation trails.",
+    "Program managers must establish written procedures for cost estimating that include historical data analysis, risk assessment methodologies, and independent estimate validation processes.",
+    "Quality assurance personnel must conduct quarterly internal audits of cost estimating system compliance using DCMA's 18-point checklist from Defense Contract Management Agency Instruction 121.",
+    "IT administrators must ensure cost estimating systems maintain proper access controls, backup procedures, and integration with existing ERP systems for data consistency.",
+    "Training coordinators must provide annual DCMA cost estimating system requirements training to all personnel involved in proposal preparation and contract pricing.",
+    "Compliance officers must maintain current documentation packages including system descriptions, flowcharts, and corrective action logs for DCMA surveillance readiness.",
+    "Senior leadership must designate a cost estimating system manager with authority to implement necessary changes and coordinate with DCMA during surveillance activities."
+  ]
+}

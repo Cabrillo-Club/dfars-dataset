@@ -1,0 +1,49 @@
+{
+  "clause": "252.219-7003",
+  "slug": "252-219-7003",
+  "title": "Small Business Subcontracting Plan (DoD Contracts)",
+  "category": "small-business",
+  "description": "This clause requires large business prime contractors on DoD contracts over $750,000 to submit a small business subcontracting plan. The plan must establish goals for awarding subcontracts to small, small disadvantaged, women-owned, HUBZone, SDVOSB, and WOSB businesses.",
+  "applicability": "DoD contracts over $750,000 awarded to large businesses where subcontracting opportunities exist.",
+  "keyRequirements": [
+    "Submit subcontracting plan before contract award",
+    "Establish percentage goals for each small business category",
+    "Report subcontracting achievements through eSRS (Electronic Subcontracting Reporting System)",
+    "Liquidated damages for failure to make good faith effort"
+  ],
+  "flowdown": false,
+  "relatedNist": [],
+  "relatedHubs": [
+    "winning",
+    "proposal"
+  ],
+  "searchTier": "medium",
+  "faq": [
+    {
+      "question": "What is DFARS 252.219-7003?",
+      "answer": "DFARS 252.219-7003 (Small Business Subcontracting Plan (DoD Contracts)) This clause requires large business prime contractors on DoD contracts over $750,000 to submit a small business subcontracting plan. The plan must establish goals for awarding subcontracts to small, s"
+    },
+    {
+      "question": "Does DFARS 252.219-7003 flow down to subcontractors?",
+      "answer": "No, DFARS 252.219-7003 does not flow down to subcontractors. This clause applies only to the prime contractor."
+    },
+    {
+      "question": "When does DFARS 252.219-7003 apply?",
+      "answer": "DoD contracts over $750,000 awarded to large businesses where subcontracting opportunities exist."
+    }
+  ],
+  "practicalExample": "Meridian Defense Technologies, a mid-size systems integrator with $85M annual revenue, won a $12.8M DoD IT modernization contract in FY24. Their initial subcontracting plan proposed 23% small business participation, 8% SDVOSB, and 5% WOSB goals. By Q3, they had only achieved 11% small business participation due to relying heavily on their existing large contractor partners. The Contracting Officer initiated a cure notice, threatening $384,000 in liquidated damages (3% of subcontract dollars not meeting goals). Meridian's contracts team scrambled to identify qualified small businesses through DSBS and renegotiated existing subcontracts. They ultimately avoided penalties by demonstrating good faith efforts through documented outreach to 47 small businesses and awarding two new $1.2M subcontracts to qualified SDVOSB firms. The lesson: establish small business relationships before contract award and monitor achievement quarterly, not annually.",
+  "whyItMatters": "This clause fundamentally shapes how large DoD primes structure their supply chains on contracts exceeding $750,000. It affects prime contractors exclusively, as the requirement doesn't flow down to subcontractors. Non-compliance triggers liquidated damages calculated as a percentage of unmet subcontracting goals, potentially reaching hundreds of thousands on large contracts. Beyond financial penalties, repeated failures can lead to past performance downgrades affecting future source selections. The clause connects to broader DoD initiatives promoting defense industrial base diversification. With the 2026 implementation of enhanced eSRS reporting requirements and increased SBA oversight following the FY25 NDAA provisions, compliance scrutiny is intensifying. Contracting Officers now have automated flags for underperforming contractors, making this a critical competitive differentiator.",
+  "complianceCost": "Initial compliance costs range from $15,000-$45,000 for developing comprehensive subcontracting plans, including legal review and market research. Annual compliance costs average $25,000-$75,000, covering eSRS reporting, small business outreach events, and dedicated subcontracting liaison personnel. Large contractors often maintain full-time small business program managers at $120,000-$150,000 annually. Remediation costs for non-compliance can reach $100,000-$500,000 in liquidated damages plus legal fees. Implementation typically requires 60-90 days for plan development and approval. Cost drivers include contract portfolio size, geographic dispersion of work, and existing small business relationships. Companies with established supplier diversity programs face 40-60% lower ongoing costs.",
+  "crossReferences": "This clause operates independently from cybersecurity-focused DFARS provisions like 252.204-7012 (Safeguarding Covered Defense Information) and 252.204-7021 (CMMC), as it addresses socioeconomic rather than security requirements. However, it intersects with 252.225-7001 (Buy American requirements) when small businesses provide foreign components, requiring careful coordination. The clause also connects to 252.232-7003 (DoD Progress Payment requirements) since small business subcontractors often require accelerated payments. For contractors subject to 252.204-7019 (SPRS reporting), small business achievements may factor into supplier performance assessments. Unlike cybersecurity clauses that flow down extensively, 252.219-7003 creates prime contractor obligations that influence but don't directly mandate subcontractor compliance with other DFARS provisions.",
+  "procurementGuidance": "Solicitations for DoD contracts exceeding $750,000 automatically include this clause when issued to large businesses with subcontracting opportunities. During source selection, proposed subcontracting plans typically receive separate evaluation under Factor 2 (Past Performance) or Factor 4 (Small Business Participation), weighted at 10-15% of total score. Prepare your subcontracting plan early, incorporating realistic percentage goals based on actual market research rather than ambitious targets. Include letters of intent from identified small businesses and demonstrate existing relationships through past performance examples. Address the plan in your management approach, showing integration with technical execution rather than treating it as an administrative afterthought. Post-award, maintain robust documentation of good faith efforts, as DCMA reviews can occur during any contract audit or when achievement falls below projected goals.",
+  "complianceChecklist": [
+    "Contracts team must submit subcontracting plan within 15 days of contract award using the prescribed format in FAR 52.219-9.",
+    "Business development personnel conduct market research using DSBS (Dynamic Small Business Search) to identify qualified small businesses in relevant NAICS codes.",
+    "Procurement staff establish percentage goals for each category: small business (minimum 23%), SDVOSB (3%), WOSB (5%), HUBZone (3%), and SDB (5%).",
+    "Subcontracting manager registers and submits semi-annual reports through eSRS (Electronic Subcontracting Reporting System) by April 30 and October 30.",
+    "Program management tracks subcontracting achievement monthly against plan goals and documents good faith efforts for each solicitation.",
+    "Legal counsel reviews all subcontracting modifications and maintains documentation of small business outreach activities for audit purposes.",
+    "Finance team calculates potential liquidated damages exposure quarterly and reports to executive leadership."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "clause": "252.237-7010",
+  "slug": "252-237-7010",
+  "title": "Prohibition on Interrogation of Detainees by Contractor Personnel",
+  "category": "general",
+  "description": "This clause prohibits contractor personnel from conducting interrogations of detainees under DoD custody. Contractors may provide support services such as interpretation and analysis, but interrogation is an inherently governmental function.",
+  "applicability": "DoD contracts for services that may involve interaction with detainees.",
+  "keyRequirements": [
+    "Contractor personnel prohibited from interrogating detainees",
+    "Support roles (interpretation, translation) are permitted",
+    "Contractor must ensure all employees understand the prohibition"
+  ],
+  "flowdown": true,
+  "relatedNist": [],
+  "relatedHubs": [],
+  "searchTier": "low",
+  "faq": [
+    {
+      "question": "What is DFARS 252.237-7010?",
+      "answer": "DFARS 252.237-7010 (Prohibition on Interrogation of Detainees by Contractor Personnel) This clause prohibits contractor personnel from conducting interrogations of detainees under DoD custody. Contractors may provide support services such as interpretation and analysis, but interrogatio"
+    },
+    {
+      "question": "Does DFARS 252.237-7010 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.237-7010 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.237-7010 apply?",
+      "answer": "DoD contracts for services that may involve interaction with detainees."
+    }
+  ],
+  "practicalExample": "In 2024, MidTech Solutions, a 200-employee IT services contractor, won a $12M three-year contract to provide linguist support services at overseas detention facilities. During contract performance, a newly hired Arabic interpreter began asking detainees direct questions about their associates and activities, believing this would help improve translation accuracy. A DoD oversight audit discovered this activity through facility surveillance recordings. The contracting officer immediately issued a cure notice, suspending $400K in monthly payments pending investigation. MidTech faced a potential contract termination worth $8M in remaining value. The company spent $75K on legal counsel and had to implement immediate corrective actions including: retraining all 15 linguist personnel ($25K), revising standard operating procedures, and establishing a compliance monitoring system. After a 60-day cure period and demonstrating systemic corrections, the contract was reinstated but MidTech absorbed $500K in suspended payments and compliance costs. The lesson: even well-intentioned support activities can cross into prohibited interrogation territory without clear boundaries and training.",
+  "whyItMatters": "This clause activates when DoD contracts involve any potential detainee interaction, affecting both prime contractors and subcontractors providing linguist services, cultural advisors, or facility support at detention operations worldwide. Violation triggers immediate contract suspension, potential termination for cause, False Claims Act liability for knowingly false certifications, and possible contractor debarment. The prohibition reflects post-9/11 legal reforms establishing interrogation as an inherently governmental function that cannot be delegated to contractors. With CMMC 2.0's emphasis on organizational culture and governance, companies demonstrating poor compliance with fundamental prohibitions face increased scrutiny during certification assessments. The 2026 National Defense Authorization Act's enhanced contractor oversight provisions make this clause a bellwether for overall contractor reliability, with violations now triggering mandatory reporting to the Contractor Performance Assessment Reporting System (CPARS) and influencing future source selection decisions across the entire DoD enterprise.",
+  "complianceCost": "Initial compliance costs range from $15K-$75K depending on contract scope and personnel count. Small contractors with 5-10 personnel typically spend $15K-$25K on policy development and training, while larger operations with 50+ personnel requiring specialized roles can reach $75K including legal review and monitoring systems. Annual ongoing costs average $5K-$15K for refresher training and policy updates. Non-compliance remediation costs escalate dramatically: legal defense averages $50K-$200K, operational suspension can cost $100K-$500K monthly in lost revenue, and systemic corrections require additional $25K-$100K investment. Compliance timeline spans 30-60 days for policy implementation and initial training, with full operational compliance achieved within 90 days. Cost drivers include: existing personnel training programs, geographic dispersion of workforce, complexity of support services provided, and integration with existing compliance management systems.",
+  "crossReferences": "DFARS 252.237-7010 operates independently but intersects with several compliance frameworks affecting contractor operations. It complements DFARS 252.225-7040 (Contractor Personnel Supporting a Force) which governs broader personnel conduct in operational environments, creating overlapping behavioral requirements. The clause aligns with NIST 800-171 AC (Access Control) and AT (Awareness and Training) control families by requiring defined role boundaries and mandatory personnel education. Under CMMC 2.0, this represents Level 1 foundational governance demonstrating organizational maturity in managing sensitive government functions. The prohibition connects to DFARS 252.204-7012 (Safeguarding Covered Defense Information) when detainee-related information requires protection, and flows into 252.204-7019 (SPRS reporting) for documenting security posture. Companies maintaining detention facility contracts often hold security clearances, making this clause subject to 252.204-7000 series requirements for cleared contractor oversight and reporting.",
+  "procurementGuidance": "This clause appears in solicitations for linguist services, cultural support, facility operations, and any contract potentially involving detainee interaction at DoD facilities worldwide. During source selection, contracting officers evaluate offeror compliance approaches through past performance assessments and proposed personnel management procedures. Prepare documentation including: corporate policy prohibiting interrogation activities, training curriculum for affected personnel, and monitoring procedures for contract performance. Address the requirement in your technical proposal by demonstrating clear understanding of permitted versus prohibited activities, outlining role-specific training programs, and describing quality assurance measures. Include organizational experience managing similar restrictions and proposed escalation procedures for ambiguous situations. Emphasize existing compliance infrastructure and cultural competency programs that support adherence to this fundamental prohibition while delivering required support services effectively.",
+  "complianceChecklist": [
+    "Contracts team must flag all solicitations containing DFARS 252.237-7010 during bid/no-bid decision process and coordinate with operations for capability assessment.",
+    "Legal counsel must review and approve all detention facility support SOPs to ensure clear distinction between permitted support activities and prohibited interrogation functions.",
+    "Human Resources must implement mandatory pre-deployment training for all personnel assigned to detention facility contracts, documenting completion in employee records.",
+    "Program managers must establish written protocols defining prohibited activities and escalation procedures for unclear situations encountered during contract performance.",
+    "Quality assurance personnel must conduct quarterly compliance audits of detention facility operations and document findings in formal compliance reports.",
+    "Training department must develop role-specific guidance for interpreters, cultural advisors, and support staff clearly delineating permitted assistance versus prohibited questioning.",
+    "Subcontract administrators must ensure flowdown clause inclusion in all subcontracts and verify subcontractor compliance through periodic assessments.",
+    "Compliance officer must maintain current roster of all personnel subject to this prohibition and ensure annual certification of understanding."
+  ]
+}

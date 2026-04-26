@@ -1,0 +1,49 @@
+{
+  "clause": "252.232-7006",
+  "slug": "252-232-7006",
+  "title": "Wide Area WorkFlow Payment Instructions",
+  "category": "general",
+  "description": "This clause provides contract-specific payment instructions for WAWF, including the payment office code, document type, and routing information. It complements DFARS 252.232-7003.",
+  "applicability": "All DoD contracts using WAWF/iRAPT for payment processing.",
+  "keyRequirements": [
+    "Register in WAWF/iRAPT before first invoice",
+    "Use payment office DoDAAC code from the contract",
+    "Follow document routing instructions",
+    "Select correct document type"
+  ],
+  "flowdown": true,
+  "relatedNist": [],
+  "relatedHubs": [
+    "operations"
+  ],
+  "searchTier": "low",
+  "faq": [
+    {
+      "question": "What is DFARS 252.232-7006?",
+      "answer": "DFARS 252.232-7006 (Wide Area WorkFlow Payment Instructions) This clause provides contract-specific payment instructions for WAWF, including the payment office code, document type, and routing information. It complements DFARS 252.232-7003."
+    },
+    {
+      "question": "Does DFARS 252.232-7006 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.232-7006 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.232-7006 apply?",
+      "answer": "All DoD contracts using WAWF/iRAPT for payment processing."
+    }
+  ],
+  "practicalExample": "MetaTech Solutions, a mid-size cybersecurity contractor with $45M in DoD contracts, won a $12.3M DISA contract in October 2024. The contracts administrator registered in WAWF but used the wrong payment office DoDAAC code (HQ0338 instead of the contract-specified HQ0339). Their first invoice for $1.2M submitted in November was rejected and bounced between payment offices for 18 days. During this period, MetaTech's cash flow was impacted as they carried $380K in labor costs and $95K in travel expenses. The finance team had to secure a bridge loan at 8.2% interest, costing an additional $4,200 in interest charges. The issue was resolved when the contracts team cross-referenced the DoDAAC in block 12 of the contract and corrected the routing. Lesson learned: Always verify the payment office code matches exactly what's specified in the contract award, not what seems logical based on the contracting agency.",
+  "whyItMatters": "DFARS 252.232-7006 is triggered on every DoD contract using WAWF for payment processing, affecting both primes and subcontractors. Incorrect payment routing can delay payments by 30-45 days, creating cash flow crises that force contractors into expensive bridge financing or factoring arrangements. More critically, systematic payment processing errors can trigger False Claims Act investigations if invoices are submitted to wrong agencies. With CMMC 2.0 implementation in 2025-2026, payment system access requires verified cybersecurity compliance, making proper WAWF registration even more critical. The regulatory trend toward automated payment processing means manual intervention for routing errors will decrease, making initial setup accuracy essential for maintaining contract performance and avoiding administrative burdens that could impact future contract awards.",
+  "complianceCost": "Initial compliance costs range from $2,500-8,000, including WAWF registration, staff training, and system integration setup. Mid-size contractors typically invest $4,500-6,000 in initial compliance. Ongoing annual costs average $1,500-3,000 for training updates and system maintenance. Non-compliance remediation costs $8,000-25,000, including consultant fees ($150-250/hour), delayed payment interest charges, and administrative overhead. Companies with existing ERP systems achieve compliance in 2-3 weeks, while those requiring new financial system integration need 6-8 weeks. Cost variation depends primarily on existing financial system sophistication and contracts team experience with federal payment systems. Large contractors with dedicated WAWF administrators maintain lower ongoing costs.",
+  "crossReferences": "DFARS 252.232-7006 operates in conjunction with 252.232-7003 (Electronic Submission of Payment Requests), which mandates WAWF usage, while 252.232-7006 provides the contract-specific routing details. This clause connects to 252.204-7012 (Safeguarding Covered Defense Information) as WAWF access requires cybersecurity compliance verification through SAM.gov. Under CMMC 2.0, contractors must maintain Level 1 or higher certification for WAWF system access, linking to 252.204-7021 requirements. The payment routing accuracy required by 252.232-7006 supports broader financial transparency mandated by 252.204-7019 (SPRS reporting), as payment discrepancies can trigger audit flags. These clauses collectively ensure secure, accurate, and traceable payment processing that supports both operational efficiency and cybersecurity objectives across the defense industrial base.",
+  "procurementGuidance": "DFARS 252.232-7006 appears in all DoD solicitations requiring WAWF payment processing, typically in Section H (Special Contract Requirements). During source selection, contracting officers verify offerors understand payment processing requirements but don't evaluate WAWF capability as a technical factor. Proposals should acknowledge WAWF compliance capability in the management approach section and include a brief description of existing payment processing systems. Prepare for contract award by pre-registering your company in WAWF and obtaining necessary system access credentials. In your proposal, reference existing WAWF registration if applicable, or commit to registration within 10 days of contract award. Include WAWF training costs in your indirect rate structure, as ongoing compliance requires dedicated administrative support for invoice processing and routing verification.",
+  "complianceChecklist": [
+    "Contracts administrator must verify the payment office DoDAAC code in block 12 of each contract award before invoice submission.",
+    "Finance team shall register company and all contract line items in WAWF using the exact entity legal name from SAM.gov registration.",
+    "ISSO must ensure WAWF system access accounts have appropriate cybersecurity training and two-factor authentication enabled.",
+    "Accounts receivable staff shall configure invoice routing to match the document type specified in the contract (typically 'Invoice' or 'Combo Invoice').",
+    "Project managers must verify labor and material charges align with CLIN structure before submitting through WAWF workflow.",
+    "Contracts administrator shall maintain a cross-reference spreadsheet of contract numbers, DoDAAC codes, and routing identifiers for all active contracts.",
+    "Finance director must establish backup payment processing procedures for WAWF system outages or technical issues.",
+    "Subcontract administrator shall flow down specific WAWF requirements and payment office codes to all subcontractors in writing."
+  ]
+}

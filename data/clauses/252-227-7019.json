@@ -1,0 +1,48 @@
+{
+  "clause": "252.227-7019",
+  "slug": "252-227-7019",
+  "title": "Validation of Asserted Restrictions—Computer Software",
+  "category": "intellectual-property",
+  "description": "This clause establishes the government's right to challenge contractor assertions of restrictive legends on computer software. If the government believes restrictions are improper, it can initiate a validation process requiring the contractor to justify its assertions within 60 days.",
+  "applicability": "DoD contracts where the government questions the validity of contractor-asserted restrictions on computer software.",
+  "keyRequirements": [
+    "Government may challenge asserted software restrictions",
+    "Contractor has 60 days to justify restriction assertions",
+    "Contracting officer makes final determination",
+    "Unjustified restrictions may be removed"
+  ],
+  "flowdown": false,
+  "relatedNist": [],
+  "relatedHubs": [
+    "operations"
+  ],
+  "searchTier": "low",
+  "faq": [
+    {
+      "question": "What is DFARS 252.227-7019?",
+      "answer": "DFARS 252.227-7019 (Validation of Asserted Restrictions—Computer Software) This clause establishes the government's right to challenge contractor assertions of restrictive legends on computer software. If the government believes restrictions are improper, it can initiate a v"
+    },
+    {
+      "question": "Does DFARS 252.227-7019 flow down to subcontractors?",
+      "answer": "No, DFARS 252.227-7019 does not flow down to subcontractors. This clause applies only to the prime contractor."
+    },
+    {
+      "question": "When does DFARS 252.227-7019 apply?",
+      "answer": "DoD contracts where the government questions the validity of contractor-asserted restrictions on computer software."
+    }
+  ],
+  "practicalExample": "MidTech Solutions, a 500-employee software development firm, delivered a $12M logistics management system to DLA under contract SP0600-24-C-1234. During delivery review, the government questioned MidTech's assertion of proprietary restrictions on 15 software modules, claiming unlimited rights based on government funding of $800K for similar functionality in a previous SBIR Phase II. The contracting officer formally challenged the restrictions under DFARS 252.227-7019, triggering MidTech's 60-day response window. MidTech's legal team spent $45K in attorney fees and 240 engineering hours documenting independent development timelines, code lineage, and funding sources. They successfully defended 12 modules but conceded 3 where government funding influence was undeniable. The settlement avoided a potential $2.3M contract modification reducing licensed software pricing. Lesson learned: MidTech now maintains detailed software development logs with funding source tracking and implements clean-room development protocols for government-adjacent projects to prevent future rights assertions challenges.",
+  "whyItMatters": "This clause represents the government's primary mechanism to challenge contractor intellectual property assertions, directly impacting revenue streams and competitive positioning. Triggered when contracting officers identify potential government rights based on funding history, specification requirements, or technical data relationships, it affects primes exclusively since it doesn't flow down to subcontractors. Failed challenges can result in forced license modifications worth millions, while frivolous government assertions can delay contract closeout for 6-18 months. Under CMMC 2.0's supply chain scrutiny, software provenance documentation becomes critical as cleared contractors face increased government rights assertions on cybersecurity tools and infrastructure software. The 2026 DoD Software Acquisition Pathway emphasizes government rights optimization, making systematic challenges more frequent as program offices seek to reduce lifecycle costs through broader software licensing arrangements.",
+  "complianceCost": "Initial compliance requires $25K-$75K investment in legal review, software inventory systems, and development documentation procedures, with mid-size contractors typically spending $45K. Annual maintenance costs range from $15K-$40K for ongoing legal counsel, documentation updates, and staff training. Non-compliance remediation averages $200K-$500K including attorney fees, technical analysis, potential license renegotiation, and program delays. Timeline to establish robust compliance posture spans 4-6 months for comprehensive software rights management systems. Costs vary significantly based on software portfolio complexity, development methodology maturity, historical funding source tracking, and existing intellectual property management infrastructure. Companies with extensive SBIR/STTR histories or joint development projects face 2-3x higher costs due to complex government rights landscapes requiring specialized legal analysis.",
+  "crossReferences": "DFARS 252.227-7019 operates in conjunction with 252.227-7013 (Rights in Technical Data—Noncommercial Items) and 252.227-7014 (Rights in Noncommercial Computer Software), forming the government's intellectual property challenge framework. These clauses reference NIST 800-171 control families SC (System and Communications Protection) and CM (Configuration Management) when software restrictions affect cybersecurity tool selection and system hardening capabilities. CMMC Level 2 requirements for software asset management directly support restriction validation through enhanced inventory controls and provenance documentation. The validation process connects to 252.204-7012 safeguarding requirements when restricted software contains controlled technical information, and interfaces with 252.225-7040 (Contractor Personnel Supporting U.S. Armed Forces) for software used in deployed environments where government rights affect operational flexibility and sustainment responsibilities.",
+  "procurementGuidance": "This clause appears in solicitations exceeding $250K involving custom software development or commercial software modifications, particularly in systems integration and cybersecurity contracts. Source selection evaluation focuses on contractor intellectual property management maturity, historical government rights compliance, and proposed restriction assertion methodologies. Prepare detailed software rights matrices mapping each deliverable component to funding sources, development timelines, and proposed restriction levels. Address potential government assertions proactively by identifying specification-driven functionality and proposing alternative licensing arrangements. Include legal review costs in pricing and establish clear software escrow arrangements for mission-critical applications. Demonstrate robust change management procedures ensuring restriction assertions remain accurate throughout development cycles, as post-award modifications to software rights claims face increased scrutiny and potential challenge actions under this clause.",
+  "complianceChecklist": [
+    "Legal counsel must establish comprehensive software development documentation standards including funding source tracking, development timelines, and contributor records for all government-related projects.",
+    "Program managers must implement pre-contract software rights assessment procedures identifying potential government claims based on specification requirements, prior contract relationships, and technical data dependencies.",
+    "Engineering teams must maintain detailed software module lineage documentation demonstrating independent development paths and commercial item qualifications separate from government-funded work.",
+    "Contracts personnel must develop standardized 60-day challenge response procedures including technical witness coordination, funding analysis, and negotiation authority matrices.",
+    "IT security teams must establish software inventory management systems tracking license restrictions, government rights assertions, and CMMC compliance implications for controlled software components.",
+    "Quality assurance staff must validate software delivery documentation packages ensuring restriction markings align with contractual assertions and development funding sources.",
+    "Executive leadership must approve software rights assertion policies defining risk tolerance for government challenges and escalation procedures for high-value intellectual property disputes."
+  ]
+}

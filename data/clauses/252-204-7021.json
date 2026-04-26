@@ -1,0 +1,55 @@
+{
+  "clause": "252.204-7021",
+  "slug": "252-204-7021",
+  "title": "Cybersecurity Maturity Model Certification Requirements",
+  "category": "cybersecurity",
+  "description": "This clause implements the CMMC program, requiring contractors to achieve a specified CMMC level before contract award. CMMC Level 1 requires basic safeguarding, Level 2 requires NIST 800-171 compliance (assessed by C3PAO), and Level 3 requires enhanced security controls. The CMMC program is being phased in across DoD contracts starting in 2025.",
+  "applicability": "DoD contracts that specify a required CMMC level. Currently being phased in, with full implementation expected by 2028.",
+  "keyRequirements": [
+    "Achieve the specified CMMC level before contract award",
+    "Maintain certification throughout contract performance",
+    "Undergo C3PAO assessment for Level 2 and above",
+    "Self-assessment option for Level 1 only",
+    "Flowdown CMMC requirements to subcontractors handling CUI"
+  ],
+  "flowdown": true,
+  "relatedNist": [
+    "ac-3-1-1",
+    "sc-3-13-1",
+    "ca-3-12-1"
+  ],
+  "relatedHubs": [
+    "cmmc",
+    "operations"
+  ],
+  "searchTier": "high",
+  "faq": [
+    {
+      "question": "What is DFARS 252.204-7021?",
+      "answer": "DFARS 252.204-7021 (Cybersecurity Maturity Model Certification Requirements) This clause implements the CMMC program, requiring contractors to achieve a specified CMMC level before contract award. CMMC Level 1 requires basic safeguarding, Level 2 requires NIST 800-171 complian"
+    },
+    {
+      "question": "Does DFARS 252.204-7021 flow down to subcontractors?",
+      "answer": "Yes, DFARS 252.204-7021 flows down to subcontractors. All applicable subcontractors must comply with this clause."
+    },
+    {
+      "question": "When does DFARS 252.204-7021 apply?",
+      "answer": "DoD contracts that specify a required CMMC level. Currently being phased in, with full implementation expected by 2028."
+    }
+  ],
+  "practicalExample": "MidTech Solutions, a 150-employee software development firm, bid on a $12M DoD IT modernization contract requiring CMMC Level 2 certification. Despite having ISO 27001 certification, they discovered their existing controls didn't meet 23 specific NIST 800-171 requirements, including multi-factor authentication for all CUI access and encrypted storage protocols. The C3PAO assessment revealed gaps that required $280,000 in security infrastructure upgrades and 8 months to remediate. MidTech lost the initial contract opportunity, costing them $1.8M in projected first-year revenue. They invested in a compliance consultant ($45,000), upgraded their security architecture, and achieved CMMC Level 2 certification 14 months later. The lesson: CMMC gaps can't be bridged with existing commercial certifications—DoD requires specific NIST 800-171 implementation that must be validated by authorized assessors, not self-certified.",
+  "whyItMatters": "DFARS 252.204-7021 fundamentally reshapes DoD contracting by making cybersecurity certification a prerequisite for contract award, not just performance. This affects all contractors handling Controlled Unclassified Information (CUI), from prime contractors to their entire supply chain. Unlike previous cybersecurity requirements that relied on self-attestation, CMMC requires third-party validation for Level 2 and above, creating enforceable compliance standards. Worst-case consequences include immediate contract ineligibility, False Claims Act liability for false certification, and potential suspension/debarment from federal contracting. The 2026 regulatory trend toward mandatory CMMC assessment for all CUI-handling contracts means contractors can no longer rely on self-certification—DoD's $400B annual contracting budget increasingly requires demonstrable cybersecurity maturity, making this clause critical for maintaining market access.",
+  "complianceCost": "Initial CMMC Level 2 compliance typically costs $150,000-$500,000 for mid-size contractors, driven by security infrastructure gaps, process documentation, and C3PAO assessment fees ($25,000-$75,000). Annual maintenance costs range $50,000-$150,000 for ongoing monitoring, annual assessments, and security tool licensing. Non-compliance remediation can exceed $300,000 when addressing findings under contract performance pressure. Timeline to achieve Level 2 certification averages 12-18 months from gap analysis to C3PAO validation. Cost variation depends on existing security maturity, company size, CUI scope, and chosen technology solutions—companies with mature security programs may achieve compliance for under $100,000, while those requiring comprehensive security transformation can exceed $750,000.",
+  "crossReferences": "DFARS 252.204-7021 builds upon the foundation established by 252.204-7012 (Safeguarding Covered Defense Information), which requires basic NIST 800-171 compliance but relies on contractor self-assessment. The CMMC clause elevates this to third-party validation for Level 2 requirements, directly correlating to the same 110 security controls. It integrates with 252.204-7019 (Notice of NIST 800-171 DOD Assessment Methodology), which requires SPRS score reporting that becomes the baseline for CMMC assessment. The clause also connects to 252.204-7020 (NIST 800-171 DoD Assessment Requirements) for contractors undergoing DoD assessments. CMMC Level 1 addresses basic safeguarding (14 practices), Level 2 encompasses all NIST 800-171 requirements (110 practices), and Level 3 adds enhanced controls for advanced persistent threats, creating a progressive security framework that supersedes standalone NIST 800-171 compliance requirements.",
+  "procurementGuidance": "DFARS 252.204-7021 appears in solicitations containing CUI requirements, with the specific CMMC level clearly identified in Section L instructions and evaluated under Section M criteria. Contracting officers cannot award contracts to uncertified contractors, making CMMC certification a responsibility matrix item, not a proposal strength. Prepare your proposal by including current CMMC certification status, planned certification timeline if pursuing, and evidence of existing security controls alignment. Address CMMC requirements in your management approach, demonstrating understanding of continuous monitoring obligations. For subcontractor management plans, document how you'll verify and maintain subcontractor CMMC compliance throughout contract performance. Submit proof of certification through the CMMC Marketplace and ensure your SAM.gov registration reflects current certification status—proposals lacking valid CMMC certification for the required level face immediate elimination from competition, regardless of technical merit or cost competitiveness.",
+  "complianceChecklist": [
+    "ISSO conducts comprehensive gap analysis against NIST 800-171 requirements using official CMMC Assessment Guides to identify specific control deficiencies.",
+    "Contracts team reviews all active DoD contracts and pending solicitations to identify CMMC level requirements and implementation timelines.",
+    "Legal counsel evaluates CMMC certification requirements in proposal language and ensures accurate capability representations in SAM.gov registrations.",
+    "ISSO develops System Security Plan (SSP) documenting all 110 NIST 800-171 security requirements and their implementation status.",
+    "IT department implements required security controls and documents evidence in Plan of Action & Milestones (POA&M) for any gaps.",
+    "ISSO coordinates C3PAO selection and scheduling for formal assessment, ensuring all documentation meets CMMC program requirements.",
+    "Contracts team develops flowdown language for subcontractors and verifies their CMMC compliance through SPRS score validation.",
+    "ISSO maintains continuous monitoring program and prepares for triennial recertification assessments as required by CMMC program rules."
+  ]
+}
