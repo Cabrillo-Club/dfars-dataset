@@ -3,7 +3,7 @@
 **Open dataset of Defense Federal Acquisition Regulation Supplement (DFARS) clauses for government contractors.**
 
 [![License](https://img.shields.io/badge/license-CC--BY--4.0-blue.svg)](LICENSE)
-[![Dataset Validation](https://github.com/cabrillo-club/dfars-dataset/actions/workflows/validate.yml/badge.svg)](https://github.com/cabrillo-club/dfars-dataset/actions/workflows/validate.yml)
+[![Dataset Validation](https://github.com/Cabrillo-Club/dfars-dataset/actions/workflows/validate.yml/badge.svg)](https://github.com/Cabrillo-Club/dfars-dataset/actions/workflows/validate.yml)
 [![Schema](https://img.shields.io/badge/schema-JSON%20Schema%20Draft%2007-green.svg)](schema/dfars-clause.schema.json)
 
 A free, machine-readable dataset of 30 of the most frequently-cited DFARS clauses, with structured metadata covering applicability, key requirements, NIST 800-171 cross-references, flowdown obligations, and contractor-grade FAQs. Maintained by [Cabrillo Club](https://cabrilloclub.com) — built originally for our DFARS clause guides, now released for the GovCon community.
@@ -91,7 +91,7 @@ jq '.[] | select(.relatedNist | contains(["3.1.1"])) | .clause' data/dfars-claus
 ### Direct fetch from GitHub raw
 
 ```js
-const r = await fetch('https://raw.githubusercontent.com/cabrillo-club/dfars-dataset/main/data/dfars-clauses.min.json')
+const r = await fetch('https://raw.githubusercontent.com/Cabrillo-Club/dfars-dataset/main/data/dfars-clauses.min.json')
 const clauses = await r.json()
 ```
 
@@ -131,14 +131,14 @@ If you use this dataset in research or public analysis, please cite:
 ```
 Cabrillo Club (2026). DFARS Dataset: Open dataset of Defense Federal Acquisition
 Regulation Supplement clauses with NIST 800-171 cross-references. v1.0.
-https://github.com/cabrillo-club/dfars-dataset
+https://github.com/Cabrillo-Club/dfars-dataset
 ```
 
 ## License
 
 Released under [Creative Commons Attribution 4.0 International (CC-BY-4.0)](LICENSE).
 
-You're free to use, share, and adapt this dataset for any purpose, including commercial — please credit "Cabrillo Club" with a link to https://github.com/cabrillo-club/dfars-dataset.
+You're free to use, share, and adapt this dataset for any purpose, including commercial — please credit "Cabrillo Club" with a link to https://github.com/Cabrillo-Club/dfars-dataset.
 
 ## About Cabrillo Club
 

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/cabrillo-club/dfars-dataset/schema/dfars-clause.schema.json",
+  "$id": "https://github.com/Cabrillo-Club/dfars-dataset/schema/dfars-clause.schema.json",
   "title": "DFARS Clause Record",
   "description": "Structured representation of a single DFARS clause with contractor-relevant metadata.",
   "type": "object",

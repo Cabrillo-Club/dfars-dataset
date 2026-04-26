@@ -13,7 +13,7 @@ Thanks for your interest in improving the dataset. Contributions are welcome fro
 ## Development setup
 
 ```bash
-git clone https://github.com/cabrillo-club/dfars-dataset.git
+git clone https://github.com/Cabrillo-Club/dfars-dataset.git
 cd dfars-dataset
 npm install
 npm test

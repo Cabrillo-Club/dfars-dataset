@@ -11,7 +11,7 @@ with open('data/dfars-clauses.json') as f:
     clauses = json.load(f)
 
 # From GitHub raw
-url = 'https://raw.githubusercontent.com/cabrillo-club/dfars-dataset/main/data/dfars-clauses.min.json'
+url = 'https://raw.githubusercontent.com/Cabrillo-Club/dfars-dataset/main/data/dfars-clauses.min.json'
 with urllib.request.urlopen(url) as r:
     clauses = json.loads(r.read())
 ```

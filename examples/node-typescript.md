@@ -78,7 +78,7 @@ For per-clause CDN caching or git-friendly storage, use the per-slug files:
 
 ```ts
 const clause = await fetch(
-  `https://raw.githubusercontent.com/cabrillo-club/dfars-dataset/main/data/clauses/252-204-7012.json`
+  `https://raw.githubusercontent.com/Cabrillo-Club/dfars-dataset/main/data/clauses/252-204-7012.json`
 ).then(r => r.json())
 ```
 
